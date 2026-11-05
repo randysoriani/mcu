@@ -1,5 +1,83 @@
 # Módulo 00 — Ambiente de desenvolvimento no Linux (TM4C)
 
+> **Objetivo deste módulo:** montar no seu Linux tudo o que é preciso para **escrever, compilar, gravar, depurar e conversar pela serial** com a LaunchPad, sem IDE, e entender o papel de cada ferramenta. No fim você terá gravado e visto funcionar o seu primeiro programa.
+
+---
+
+## 0. Para quem nunca programou um microcontrolador
+
+### Como é diferente de programar para o PC
+
+| No PC | No microcontrolador |
+|---|---|
+| Você compila e roda o programa **no mesmo computador** | Você compila no PC e o programa roda **em outro processador** (o da placa). Isso se chama **compilação cruzada** (*cross-compiling*) |
+| O sistema operacional carrega o programa na memória | Um **gravador** escreve o programa na memória Flash do chip |
+| `printf` aparece no terminal | Não há tela: o programa "fala" pela **porta serial**, e o PC mostra num programa de terminal |
+| Um erro mostra uma mensagem e o programa fecha | Um erro geralmente **trava** o chip em silêncio; para ver o que houve, usa-se um **depurador** |
+| O programa termina | O programa **nunca termina**: roda num laço infinito enquanto houver energia |
+
+### A LaunchPad
+
+A LaunchPad tem **dois** microcontroladores:
+
+```
+ ┌──────────────────────── placa LaunchPad ───────────────────────────┐
+ │  ┌───────────────┐               ┌──────────────────────────────┐  │
+ │  │    ICDI       │── JTAG/SWD ──►│  TM4C123 ou TM4C1294         │  │
+ │  │ (gravador e   │               │  (o chip ALVO: onde o seu    │  │
+ │  │  depurador)   │◄── serial ────│   programa roda)             │  │
+ │  └───────┬───────┘               └──────────────────────────────┘  │
+ │          │ USB "DEBUG"                LEDs, botões                 │
+ └──────────┼─────────────────────────────────────────────────────────┘
+            ▼
+          seu PC
+```
+
+- O **ICDI** (*In-Circuit Debug Interface*) é um gravador/depurador feito pela TI com outro chip TM4C. Pelo cabo USB ele aparece no PC como um **gravador/depurador** e uma **porta serial** (`/dev/ttyACM0`), ligada à UART0 do chip alvo.
+- O **chip alvo** é onde o seu programa roda.
+- **JTAG/SWD** são os fios pelos quais o ICDI controla o chip alvo: grava a Flash, para e continua a execução, lê e escreve a memória.
+
+Ligação: na EK-TM4C123GXL, a chave **POWER SELECT** em **DEBUG** e o cabo no micro-USB marcado "DEBUG". Na EK-TM4C1294XL, o jumper **JP1** na posição **ICDI** e o cabo no micro-USB "DEBUG". O LED verde de alimentação acende.
+
+### As ferramentas, em uma frase cada
+
+| Ferramenta | Para que serve |
+|---|---|
+| editor de texto | escrever o código (qualquer um) |
+| **arm-none-eabi-gcc** | o compilador: transforma C em código de máquina ARM |
+| **make** | automatiza a compilação: você digita `make` e ele chama o compilador com as opções certas |
+| **OpenOCD** | o programa do PC que fala com o ICDI: grava o chip e permite depurar |
+| **lm4flash** | alternativa simples ao OpenOCD, só para gravar |
+| **GDB** | o depurador: para o programa, mostra variáveis, executa linha a linha |
+| **picocom** | terminal serial: mostra o que o programa escreve na serial |
+
+### Primeiro programa em 10 minutos
+
+1. Instale as ferramentas (seção 2).
+2. Ligue a LaunchPad e confira que o Linux a viu:
+   ```sh
+   lsusb | grep -i 1cbe           # deve aparecer "Luminary Micro ... In-Circuit Debug Interface"
+   ls /dev/ttyACM*                # deve aparecer /dev/ttyACM0
+   ```
+3. Compile e grave o programa que pisca o LED:
+   ```sh
+   cd tm4c-baremetal/05-gpio-blink
+   make MCU=123                   # compila; termina mostrando o tamanho do programa
+   make MCU=123 flash             # grava com o OpenOCD
+   ```
+   O LED verde deve começar a piscar. (Com a EK-TM4C1294XL, troque `123` por `129`.)
+4. Agora um programa que escreve na serial:
+   ```sh
+   cd ../01-arquitetura-memoria
+   make MCU=123 flash
+   picocom -b 115200 /dev/ttyACM0     # aperte o botão RESET da placa
+   ```
+   Aparecem informações sobre o chip. Para sair do picocom: **Ctrl-A** e depois **Ctrl-X**.
+
+Se algo der errado, a seção "Permissões" e o módulo 23 (OpenOCD) cobrem os problemas mais comuns.
+
+---
+
 Mesma toolchain do curso STM32 — o que muda é o **debugger** (ICDI da TI em vez de ST-LINK) e os arquivos de configuração do OpenOCD.
 
 ---

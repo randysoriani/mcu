@@ -130,10 +130,16 @@ end
 # ---------------------------------------------------------------------------
 define pilha
     printf "MSP = 0x%08x, topo (_estack) = 0x%08x, usado = %d bytes\n", $msp, &_estack, (unsigned int)&_estack - $msp
-    x/16xw $sp
+    set $n = ((unsigned int)&_estack - (unsigned int)$sp) / 4
+    if $n > 16
+        set $n = 16
+    end
+    if $n > 0
+        eval "x/%dxw $sp", $n
+    end
 end
 document pilha
-Mostra o stack pointer, quanto da pilha está em uso e as 16 words do topo.
+Mostra o stack pointer, quanto da pilha está em uso e até 16 words do topo.
 end
 
 # ---------------------------------------------------------------------------

@@ -97,6 +97,8 @@ Os headers foram **escritos à mão** a partir dos datasheets: `common/include/t
 | 20 | [20-rtc](20-rtc/README.md) | Módulo de hibernação: contador RTC, epoch ↔ data, alarme |
 | 21 | [21-low-power](21-low-power/README.md) | Sleep, Deep-Sleep, Hibernação |
 | 22 | [22-flash-interna](22-flash-interna/README.md) | Apagar/programar Flash (FMA/FMD/FMC), wear leveling |
+| 23 | [23-openocd](23-openocd/README.md) | OpenOCD com o ICDI: console, memória com o programa rodando, TCL, semihosting |
+| 24 | [24-gdb](24-gdb/README.md) | GDB do zero: breakpoints, watchpoints, `dprintf`, análise de HardFault, scripts |
 
 ---
 

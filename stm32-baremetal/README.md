@@ -78,6 +78,8 @@ Os headers `common/f0/stm32f0.h` e `common/f4/stm32f4.h` foram **escritos à mã
 | 20 | [20-rtc](20-rtc/README.md) | RTC: LSE/LSI, backup domain, calendário BCD, alarme |
 | 21 | [21-low-power](21-low-power/README.md) | Sleep, Stop, Standby, pinos de wakeup |
 | 22 | [22-flash-interna](22-flash-interna/README.md) | Apagar/programar a Flash, wear leveling |
+| 23 | [23-openocd](23-openocd/README.md) | OpenOCD do zero: camadas, console telnet, memória com o programa rodando, gravação/RDP, TCL, semihosting |
+| 24 | [24-gdb](24-gdb/README.md) | GDB do zero: breakpoints, watchpoints, `dprintf`, análise de HardFault, scripts — com um programa cheio de bugs |
 
 ---
 

@@ -73,10 +73,10 @@ Loading section .text, size 0x... lma 0x80001c4
 (gdb) monitor reset halt                 # começa do zero com o programa novo
 (gdb) source gdb/curso.gdb               # comandos do curso
 (gdb) break main
-Breakpoint 1 at 0x80003e8: file src/main.c, line 128.
+Breakpoint 1 at 0x80003d8: file src/main.c, line 123.
 (gdb) continue
-Breakpoint 1, main () at src/main.c:128
-128         system_init();
+Breakpoint 1, main () at src/main.c:123
+123     {
 ```
 
 O que aconteceu:
@@ -174,7 +174,14 @@ x/<quantidade><formato><tamanho> endereço
 Como os headers do curso definem cada periférico como uma struct, o GDB entende os registradores pelo nome:
 ```
 (gdb) p/x *GPIOA
-$7 = {MODER = 0xa8000400, OTYPER = 0x0, OSPEEDR = 0xc000000, PUPDR = 0x64000000, IDR = 0xc020, ODR = 0x20, ...}
+$7 = {
+  MODER = 0x...,      <- os valores reais dependem do estado da placa
+  OTYPER = 0x...,
+  ...
+  ODR = 0x...,
+  BSRR = 0x0,
+  ...
+}
 (gdb) p/t GPIOA->MODER
 (gdb) p/x RCC->CFGR
 (gdb) gpio GPIOA              # comando do curso.gdb

@@ -1,10 +1,83 @@
 # Módulo 00 — Ambiente de desenvolvimento no Linux
 
-Objetivo: sair deste módulo com um ambiente capaz de **compilar, gravar, depurar e conversar pela serial** com as duas placas, entendendo cada ferramenta — sem IDE.
+> **Objetivo deste módulo:** montar no seu Linux tudo o que é preciso para **escrever, compilar, gravar, depurar e conversar pela serial** com a placa, sem IDE, e entender o papel de cada ferramenta. No fim você terá gravado e visto funcionar o seu primeiro programa.
 
 ---
 
-## 1. O que é cada peça
+## 0. Para quem nunca programou um microcontrolador
+
+### Como é diferente de programar para o PC
+
+| No PC | No microcontrolador |
+|---|---|
+| Você compila e roda o programa **no mesmo computador** | Você compila no PC e o programa roda **em outro processador** (o da placa). Isso se chama **compilação cruzada** (*cross-compiling*) |
+| O sistema operacional carrega o programa na memória | Um **gravador** escreve o programa na memória Flash do chip |
+| `printf` aparece no terminal | Não há tela: o programa "fala" pela **porta serial**, e o PC mostra num programa de terminal |
+| Um erro mostra uma mensagem e o programa fecha | Um erro geralmente **trava** o chip em silêncio; para ver o que houve, usa-se um **depurador** |
+| O programa termina | O programa **nunca termina**: roda num laço infinito enquanto houver energia |
+
+### A placa Nucleo
+
+A Nucleo tem **dois** microcontroladores:
+
+```
+ ┌──────────────────────── placa Nucleo-64 ───────────────────────────┐
+ │  ┌───────────────┐               ┌──────────────────────────────┐  │
+ │  │   ST-LINK     │── fios SWD ──►│  STM32F072 ou STM32F446      │  │
+ │  │ (gravador e   │               │  (o chip ALVO: onde o seu    │  │
+ │  │  depurador)   │◄── serial ────│   programa roda)             │  │
+ │  └───────┬───────┘               └──────────────────────────────┘  │
+ │          │ USB                      LED verde (PA5), botão azul    │
+ └──────────┼─────────────────────────────────────────────────────────┘
+            ▼
+          seu PC
+```
+
+- A parte de cima da placa é o **ST-LINK**: um gravador/depurador. Pelo único cabo USB, ele aparece no PC como três coisas ao mesmo tempo: um **gravador/depurador**, uma **porta serial** (`/dev/ttyACM0`) e um pequeno disco USB (não usado no curso).
+- A parte de baixo tem o **chip alvo**, onde o seu programa roda.
+- **SWD** (*Serial Wire Debug*) são dois fios pelos quais o ST-LINK controla o chip alvo: grava a Flash, para e continua a execução, lê e escreve a memória.
+
+Ao ligar a placa no USB: o LED **LD1** (ST-LINK) fica aceso ou piscando e o LED **LD3** (alimentação, vermelho) acende. O LED **LD2** (verde) é o que os programas do curso controlam.
+
+### As ferramentas, em uma frase cada
+
+| Ferramenta | Para que serve |
+|---|---|
+| editor de texto | escrever o código (qualquer um: VS Code, Vim, Kate, Gedit...) |
+| **arm-none-eabi-gcc** | o compilador: transforma C em código de máquina ARM |
+| **make** | automatiza a compilação: você digita `make` e ele chama o compilador com as opções certas |
+| **OpenOCD** | o programa do PC que fala com o ST-LINK: grava o chip e permite depurar |
+| **GDB** | o depurador: para o programa, mostra variáveis, executa linha a linha |
+| **picocom** | terminal serial: mostra o que o programa escreve na serial |
+
+### Primeiro programa em 10 minutos
+
+1. Instale as ferramentas (seção 2).
+2. Ligue a Nucleo-F446RE no USB e confira que o Linux a viu:
+   ```sh
+   lsusb | grep -i st-link        # deve aparecer "STMicroelectronics ST-LINK/V2.1"
+   ls /dev/ttyACM*                # deve aparecer /dev/ttyACM0
+   ```
+3. Compile e grave o programa que pisca o LED:
+   ```sh
+   cd stm32-baremetal/05-gpio-blink
+   make MCU=f4                    # compila; termina mostrando o tamanho do programa
+   make MCU=f4 flash              # grava; termina com "** Verified OK **"
+   ```
+   O LED verde deve começar a piscar. (Com a Nucleo-F072RB, troque `f4` por `f0`.)
+4. Agora um programa que escreve na serial:
+   ```sh
+   cd ../01-arquitetura-memoria
+   make MCU=f4 flash
+   picocom -b 115200 /dev/ttyACM0     # aperte o botão RESET preto da placa
+   ```
+   Aparecem informações sobre o chip. Para sair do picocom: **Ctrl-A** e depois **Ctrl-X**.
+
+Se algo der errado, a seção "Permissões" e o módulo 23 (OpenOCD) cobrem os problemas mais comuns.
+
+---
+
+## 1. O que é cada peça (em detalhe)
 
 ```
   main.c ──► arm-none-eabi-gcc ──► main.o ─┐
