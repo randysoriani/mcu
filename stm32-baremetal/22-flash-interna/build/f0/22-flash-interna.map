@@ -1,0 +1,569 @@
+Archive member included to satisfy reference by file (symbol)
+
+/home/randy/.hermes/cache/scratch/arm-gnu-toolchain-14.2.rel1-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/14.2.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp/libc_nano.a(libc_a-strlen.o)
+                              build/f0/obj/printf.o (strlen)
+/home/randy/.hermes/cache/scratch/arm-gnu-toolchain-14.2.rel1-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/14.2.1/thumb/v6-m/nofp/libgcc.a(_udivsi3.o)
+                              build/f0/obj/systick.o (__aeabi_uidiv)
+/home/randy/.hermes/cache/scratch/arm-gnu-toolchain-14.2.rel1-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/14.2.1/thumb/v6-m/nofp/libgcc.a(_dvmd_tls.o)
+                              /home/randy/.hermes/cache/scratch/arm-gnu-toolchain-14.2.rel1-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/14.2.1/thumb/v6-m/nofp/libgcc.a(_udivsi3.o) (__aeabi_idiv0)
+
+Discarded input sections
+
+ .group         0x00000000        0xc build/f0/obj/flash.o
+ .group         0x00000000        0xc build/f0/obj/flash.o
+ .group         0x00000000        0xc build/f0/obj/flash.o
+ .group         0x00000000        0xc build/f0/obj/flash.o
+ .group         0x00000000        0xc build/f0/obj/flash.o
+ .group         0x00000000        0xc build/f0/obj/flash.o
+ .group         0x00000000        0xc build/f0/obj/flash.o
+ .group         0x00000000        0xc build/f0/obj/flash.o
+ .group         0x00000000        0xc build/f0/obj/flash.o
+ .text          0x00000000        0x0 build/f0/obj/flash.o
+ .data          0x00000000        0x0 build/f0/obj/flash.o
+ .bss           0x00000000        0x0 build/f0/obj/flash.o
+ .group         0x00000000        0xc build/f0/obj/main.o
+ .group         0x00000000        0xc build/f0/obj/main.o
+ .group         0x00000000        0xc build/f0/obj/main.o
+ .group         0x00000000        0xc build/f0/obj/main.o
+ .group         0x00000000        0xc build/f0/obj/main.o
+ .group         0x00000000        0xc build/f0/obj/main.o
+ .group         0x00000000        0xc build/f0/obj/main.o
+ .group         0x00000000        0xc build/f0/obj/main.o
+ .group         0x00000000        0xc build/f0/obj/main.o
+ .group         0x00000000        0xc build/f0/obj/main.o
+ .group         0x00000000        0xc build/f0/obj/main.o
+ .text          0x00000000        0x0 build/f0/obj/main.o
+ .data          0x00000000        0x0 build/f0/obj/main.o
+ .bss           0x00000000        0x0 build/f0/obj/main.o
+ .debug_macro   0x00000000      0xaae build/f0/obj/main.o
+ .debug_macro   0x00000000       0x22 build/f0/obj/main.o
+ .debug_macro   0x00000000       0x56 build/f0/obj/main.o
+ .debug_macro   0x00000000       0x51 build/f0/obj/main.o
+ .debug_macro   0x00000000      0x103 build/f0/obj/main.o
+ .debug_macro   0x00000000       0x6a build/f0/obj/main.o
+ .debug_macro   0x00000000      0x1df build/f0/obj/main.o
+ .debug_macro   0x00000000       0x16 build/f0/obj/main.o
+ .group         0x00000000        0xc build/f0/obj/startup.o
+ .group         0x00000000        0xc build/f0/obj/startup.o
+ .group         0x00000000        0xc build/f0/obj/startup.o
+ .group         0x00000000        0xc build/f0/obj/startup.o
+ .group         0x00000000        0xc build/f0/obj/startup.o
+ .group         0x00000000        0xc build/f0/obj/startup.o
+ .group         0x00000000        0xc build/f0/obj/startup.o
+ .text          0x00000000        0x0 build/f0/obj/startup.o
+ .data          0x00000000        0x0 build/f0/obj/startup.o
+ .bss           0x00000000        0x0 build/f0/obj/startup.o
+ .debug_macro   0x00000000      0xaae build/f0/obj/startup.o
+ .debug_macro   0x00000000       0x22 build/f0/obj/startup.o
+ .debug_macro   0x00000000       0x56 build/f0/obj/startup.o
+ .debug_macro   0x00000000       0x51 build/f0/obj/startup.o
+ .debug_macro   0x00000000      0x103 build/f0/obj/startup.o
+ .debug_macro   0x00000000       0x6a build/f0/obj/startup.o
+ .debug_macro   0x00000000      0x1df build/f0/obj/startup.o
+ .group         0x00000000        0xc build/f0/obj/clock.o
+ .group         0x00000000        0xc build/f0/obj/clock.o
+ .group         0x00000000        0xc build/f0/obj/clock.o
+ .group         0x00000000        0xc build/f0/obj/clock.o
+ .group         0x00000000        0xc build/f0/obj/clock.o
+ .group         0x00000000        0xc build/f0/obj/clock.o
+ .group         0x00000000        0xc build/f0/obj/clock.o
+ .group         0x00000000        0xc build/f0/obj/clock.o
+ .group         0x00000000        0xc build/f0/obj/clock.o
+ .group         0x00000000        0xc build/f0/obj/clock.o
+ .text          0x00000000        0x0 build/f0/obj/clock.o
+ .data          0x00000000        0x0 build/f0/obj/clock.o
+ .bss           0x00000000        0x0 build/f0/obj/clock.o
+ .debug_macro   0x00000000      0xaae build/f0/obj/clock.o
+ .debug_macro   0x00000000       0x22 build/f0/obj/clock.o
+ .debug_macro   0x00000000       0x56 build/f0/obj/clock.o
+ .debug_macro   0x00000000       0x51 build/f0/obj/clock.o
+ .debug_macro   0x00000000      0x103 build/f0/obj/clock.o
+ .debug_macro   0x00000000       0x6a build/f0/obj/clock.o
+ .debug_macro   0x00000000      0x1df build/f0/obj/clock.o
+ .debug_macro   0x00000000      0x190 build/f0/obj/clock.o
+ .debug_macro   0x00000000      0xa53 build/f0/obj/clock.o
+ .debug_macro   0x00000000       0x1c build/f0/obj/clock.o
+ .group         0x00000000        0xc build/f0/obj/systick.o
+ .group         0x00000000        0xc build/f0/obj/systick.o
+ .group         0x00000000        0xc build/f0/obj/systick.o
+ .group         0x00000000        0xc build/f0/obj/systick.o
+ .group         0x00000000        0xc build/f0/obj/systick.o
+ .group         0x00000000        0xc build/f0/obj/systick.o
+ .group         0x00000000        0xc build/f0/obj/systick.o
+ .group         0x00000000        0xc build/f0/obj/systick.o
+ .group         0x00000000        0xc build/f0/obj/systick.o
+ .group         0x00000000        0xc build/f0/obj/systick.o
+ .text          0x00000000        0x0 build/f0/obj/systick.o
+ .data          0x00000000        0x0 build/f0/obj/systick.o
+ .bss           0x00000000        0x0 build/f0/obj/systick.o
+ .text.systick_init
+                0x00000000       0x28 build/f0/obj/systick.o
+ .text.delay_us
+                0x00000000       0x48 build/f0/obj/systick.o
+ .debug_macro   0x00000000      0xaae build/f0/obj/systick.o
+ .debug_macro   0x00000000       0x22 build/f0/obj/systick.o
+ .debug_macro   0x00000000       0x56 build/f0/obj/systick.o
+ .debug_macro   0x00000000       0x51 build/f0/obj/systick.o
+ .debug_macro   0x00000000      0x103 build/f0/obj/systick.o
+ .debug_macro   0x00000000       0x6a build/f0/obj/systick.o
+ .debug_macro   0x00000000      0x1df build/f0/obj/systick.o
+ .debug_macro   0x00000000      0x190 build/f0/obj/systick.o
+ .debug_macro   0x00000000      0xa53 build/f0/obj/systick.o
+ .debug_macro   0x00000000       0x1c build/f0/obj/systick.o
+ .group         0x00000000        0xc build/f0/obj/uart.o
+ .group         0x00000000        0xc build/f0/obj/uart.o
+ .group         0x00000000        0xc build/f0/obj/uart.o
+ .group         0x00000000        0xc build/f0/obj/uart.o
+ .group         0x00000000        0xc build/f0/obj/uart.o
+ .group         0x00000000        0xc build/f0/obj/uart.o
+ .group         0x00000000        0xc build/f0/obj/uart.o
+ .group         0x00000000        0xc build/f0/obj/uart.o
+ .group         0x00000000        0xc build/f0/obj/uart.o
+ .group         0x00000000        0xc build/f0/obj/uart.o
+ .text          0x00000000        0x0 build/f0/obj/uart.o
+ .data          0x00000000        0x0 build/f0/obj/uart.o
+ .bss           0x00000000        0x0 build/f0/obj/uart.o
+ .text.uart_puts
+                0x00000000       0x34 build/f0/obj/uart.o
+ .debug_macro   0x00000000      0xaae build/f0/obj/uart.o
+ .debug_macro   0x00000000       0x22 build/f0/obj/uart.o
+ .debug_macro   0x00000000       0x56 build/f0/obj/uart.o
+ .debug_macro   0x00000000       0x51 build/f0/obj/uart.o
+ .debug_macro   0x00000000      0x103 build/f0/obj/uart.o
+ .debug_macro   0x00000000       0x6a build/f0/obj/uart.o
+ .debug_macro   0x00000000      0x1df build/f0/obj/uart.o
+ .debug_macro   0x00000000      0x190 build/f0/obj/uart.o
+ .debug_macro   0x00000000      0xa53 build/f0/obj/uart.o
+ .debug_macro   0x00000000       0x1c build/f0/obj/uart.o
+ .group         0x00000000        0xc build/f0/obj/printf.o
+ .group         0x00000000        0xc build/f0/obj/printf.o
+ .group         0x00000000        0xc build/f0/obj/printf.o
+ .group         0x00000000        0xc build/f0/obj/printf.o
+ .group         0x00000000        0xc build/f0/obj/printf.o
+ .group         0x00000000        0xc build/f0/obj/printf.o
+ .group         0x00000000        0xc build/f0/obj/printf.o
+ .group         0x00000000        0xc build/f0/obj/printf.o
+ .group         0x00000000        0xc build/f0/obj/printf.o
+ .group         0x00000000        0xc build/f0/obj/printf.o
+ .group         0x00000000        0xc build/f0/obj/printf.o
+ .text          0x00000000        0x0 build/f0/obj/printf.o
+ .data          0x00000000        0x0 build/f0/obj/printf.o
+ .bss           0x00000000        0x0 build/f0/obj/printf.o
+ .debug_macro   0x00000000      0xaae build/f0/obj/printf.o
+ .debug_macro   0x00000000       0x22 build/f0/obj/printf.o
+ .debug_macro   0x00000000       0x56 build/f0/obj/printf.o
+ .debug_macro   0x00000000       0x51 build/f0/obj/printf.o
+ .debug_macro   0x00000000      0x103 build/f0/obj/printf.o
+ .debug_macro   0x00000000       0x6a build/f0/obj/printf.o
+ .debug_macro   0x00000000      0x1df build/f0/obj/printf.o
+ .debug_macro   0x00000000      0x190 build/f0/obj/printf.o
+ .debug_macro   0x00000000      0xa53 build/f0/obj/printf.o
+ .debug_macro   0x00000000       0x1c build/f0/obj/printf.o
+ .data          0x00000000        0x0 /home/randy/.hermes/cache/scratch/arm-gnu-toolchain-14.2.rel1-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/14.2.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp/libc_nano.a(libc_a-strlen.o)
+ .bss           0x00000000        0x0 /home/randy/.hermes/cache/scratch/arm-gnu-toolchain-14.2.rel1-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/14.2.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp/libc_nano.a(libc_a-strlen.o)
+ .data          0x00000000        0x0 /home/randy/.hermes/cache/scratch/arm-gnu-toolchain-14.2.rel1-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/14.2.1/thumb/v6-m/nofp/libgcc.a(_udivsi3.o)
+ .bss           0x00000000        0x0 /home/randy/.hermes/cache/scratch/arm-gnu-toolchain-14.2.rel1-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/14.2.1/thumb/v6-m/nofp/libgcc.a(_udivsi3.o)
+ .data          0x00000000        0x0 /home/randy/.hermes/cache/scratch/arm-gnu-toolchain-14.2.rel1-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/14.2.1/thumb/v6-m/nofp/libgcc.a(_dvmd_tls.o)
+ .bss           0x00000000        0x0 /home/randy/.hermes/cache/scratch/arm-gnu-toolchain-14.2.rel1-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/14.2.1/thumb/v6-m/nofp/libgcc.a(_dvmd_tls.o)
+
+Memory Configuration
+
+Name             Origin             Length             Attributes
+FLASH            0x08000000         0x00020000         xr
+RAM              0x20000000         0x00004000         xrw
+*default*        0x00000000         0xffffffff
+
+Linker script and memory map
+
+LOAD build/f0/obj/flash.o
+LOAD build/f0/obj/main.o
+LOAD build/f0/obj/startup.o
+LOAD build/f0/obj/clock.o
+LOAD build/f0/obj/systick.o
+LOAD build/f0/obj/uart.o
+LOAD build/f0/obj/printf.o
+LOAD /home/randy/.hermes/cache/scratch/arm-gnu-toolchain-14.2.rel1-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/14.2.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp/libc_nano.a
+LOAD /home/randy/.hermes/cache/scratch/arm-gnu-toolchain-14.2.rel1-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/14.2.1/thumb/v6-m/nofp/libgcc.a
+START GROUP
+LOAD /home/randy/.hermes/cache/scratch/arm-gnu-toolchain-14.2.rel1-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/14.2.1/thumb/v6-m/nofp/libgcc.a
+LOAD /home/randy/.hermes/cache/scratch/arm-gnu-toolchain-14.2.rel1-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/14.2.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp/libc_nano.a
+END GROUP
+START GROUP
+LOAD /home/randy/.hermes/cache/scratch/arm-gnu-toolchain-14.2.rel1-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/14.2.1/thumb/v6-m/nofp/libgcc.a
+LOAD /home/randy/.hermes/cache/scratch/arm-gnu-toolchain-14.2.rel1-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/14.2.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp/libc_nano.a
+LOAD /home/randy/.hermes/cache/scratch/arm-gnu-toolchain-14.2.rel1-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/14.2.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp/libnosys.a
+END GROUP
+START GROUP
+LOAD /home/randy/.hermes/cache/scratch/arm-gnu-toolchain-14.2.rel1-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/14.2.1/thumb/v6-m/nofp/libgcc.a
+LOAD /home/randy/.hermes/cache/scratch/arm-gnu-toolchain-14.2.rel1-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/14.2.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp/libc_nano.a
+LOAD /home/randy/.hermes/cache/scratch/arm-gnu-toolchain-14.2.rel1-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/14.2.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp/libnosys.a
+END GROUP
+                0x00000000                        _Min_Heap_Size = 0x0
+                0x00000400                        _Min_Stack_Size = 0x400
+                0x20004000                        _estack = (ORIGIN (RAM) + LENGTH (RAM))
+
+.isr_vector     0x08000000       0xc0
+                0x08000000                        . = ALIGN (0x4)
+ *(.isr_vector)
+ .isr_vector    0x08000000       0xc0 build/f0/obj/startup.o
+                0x08000000                vector_table
+                0x080000c0                        . = ALIGN (0x4)
+
+.text           0x080000c0      0x9f4
+                0x080000c0                        . = ALIGN (0x4)
+ *(.text)
+ .text          0x080000c0        0xe /home/randy/.hermes/cache/scratch/arm-gnu-toolchain-14.2.rel1-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/14.2.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp/libc_nano.a(libc_a-strlen.o)
+                0x080000c0                strlen
+ *fill*         0x080000ce        0x2 
+ .text          0x080000d0      0x114 /home/randy/.hermes/cache/scratch/arm-gnu-toolchain-14.2.rel1-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/14.2.1/thumb/v6-m/nofp/libgcc.a(_udivsi3.o)
+                0x080000d0                __udivsi3
+                0x080000d0                __aeabi_uidiv
+                0x080001dc                __aeabi_uidivmod
+ .text          0x080001e4        0x4 /home/randy/.hermes/cache/scratch/arm-gnu-toolchain-14.2.rel1-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/14.2.1/thumb/v6-m/nofp/libgcc.a(_dvmd_tls.o)
+                0x080001e4                __aeabi_ldiv0
+                0x080001e4                __aeabi_idiv0
+ *(.text*)
+ .text.flash_erase_data_area
+                0x080001e8       0x60 build/f0/obj/flash.o
+                0x080001e8                flash_erase_data_area
+ .text.flash_write_word
+                0x08000248       0x88 build/f0/obj/flash.o
+                0x08000248                flash_write_word
+ .text.append   0x080002d0       0xa4 build/f0/obj/main.o
+ .text.startup.main
+                0x08000374      0x138 build/f0/obj/main.o
+                0x08000374                main
+ .text.Default_Handler
+                0x080004ac        0x4 build/f0/obj/startup.o
+                0x080004ac                TIM1_CC_IRQHandler
+                0x080004ac                TSC_IRQHandler
+                0x080004ac                HardFault_Handler
+                0x080004ac                ADC1_COMP_IRQHandler
+                0x080004ac                PendSV_Handler
+                0x080004ac                NMI_Handler
+                0x080004ac                I2C1_IRQHandler
+                0x080004ac                RCC_CRS_IRQHandler
+                0x080004ac                SPI1_IRQHandler
+                0x080004ac                TIM6_DAC_IRQHandler
+                0x080004ac                USART3_4_IRQHandler
+                0x080004ac                EXTI2_3_IRQHandler
+                0x080004ac                I2C2_IRQHandler
+                0x080004ac                TIM17_IRQHandler
+                0x080004ac                CEC_CAN_IRQHandler
+                0x080004ac                RTC_IRQHandler
+                0x080004ac                PVD_VDDIO2_IRQHandler
+                0x080004ac                DMA1_Channel4_5_6_7_IRQHandler
+                0x080004ac                TIM16_IRQHandler
+                0x080004ac                TIM3_IRQHandler
+                0x080004ac                EXTI4_15_IRQHandler
+                0x080004ac                DMA1_Channel1_IRQHandler
+                0x080004ac                Default_Handler
+                0x080004ac                TIM14_IRQHandler
+                0x080004ac                TIM7_IRQHandler
+                0x080004ac                TIM15_IRQHandler
+                0x080004ac                EXTI0_1_IRQHandler
+                0x080004ac                USB_IRQHandler
+                0x080004ac                SPI2_IRQHandler
+                0x080004ac                SVC_Handler
+                0x080004ac                WWDG_IRQHandler
+                0x080004ac                TIM2_IRQHandler
+                0x080004ac                DMA1_Channel2_3_IRQHandler
+                0x080004ac                USART2_IRQHandler
+                0x080004ac                FLASH_IRQHandler
+                0x080004ac                USART1_IRQHandler
+                0x080004ac                TIM1_BRK_UP_TRG_COM_IRQHandler
+ .text.Reset_Handler
+                0x080004b0       0x80 build/f0/obj/startup.o
+                0x080004b0                Reset_Handler
+ .text.clock_init
+                0x08000530       0xac build/f0/obj/clock.o
+                0x08000530                clock_init
+ .text.SysTick_Handler
+                0x080005dc       0x10 build/f0/obj/systick.o
+                0x080005dc                SysTick_Handler
+ .text.millis   0x080005ec        0xc build/f0/obj/systick.o
+                0x080005ec                millis
+ .text.delay_ms
+                0x080005f8       0x1c build/f0/obj/systick.o
+                0x080005f8                delay_ms
+ .text.system_init
+                0x08000614       0x2c build/f0/obj/systick.o
+                0x08000614                system_init
+ .text.uart_init
+                0x08000640       0x88 build/f0/obj/uart.o
+                0x08000640                uart_init
+ .text.uart_putc
+                0x080006c8       0x14 build/f0/obj/uart.o
+                0x080006c8                uart_putc
+ .text.uart_getc
+                0x080006dc       0x28 build/f0/obj/uart.o
+                0x080006dc                uart_getc
+ .text.out_num  0x08000704      0x120 build/f0/obj/printf.o
+ .text.kprintf  0x08000824      0x290 build/f0/obj/printf.o
+                0x08000824                kprintf
+ *(.glue_7)
+ .glue_7        0x08000ab4        0x0 linker stubs
+ *(.glue_7t)
+ .glue_7t       0x08000ab4        0x0 linker stubs
+ *(.eh_frame)
+ *(.init)
+ *(.fini)
+                0x08000ab4                        . = ALIGN (0x4)
+                0x08000ab4                        _etext = .
+
+.vfp11_veneer   0x08000ab4        0x0
+ .vfp11_veneer  0x08000ab4        0x0 linker stubs
+
+.v4_bx          0x08000ab4        0x0
+ .v4_bx         0x08000ab4        0x0 linker stubs
+
+.iplt           0x08000ab4        0x0
+ .iplt          0x08000ab4        0x0 build/f0/obj/main.o
+
+.rodata         0x08000ab4      0x1b0
+                0x08000ab4                        . = ALIGN (0x4)
+ *(.rodata)
+ *(.rodata*)
+ .rodata.append.str1.4
+                0x08000ab4      0x12b build/f0/obj/main.o
+                                 0x65 (size before relaxing)
+ .rodata.main.str1.4
+                0x08000bdf       0x8f build/f0/obj/main.o
+ .rodata.out_num.str1.4
+                0x08000bdf       0x25 build/f0/obj/printf.o
+ .rodata.kprintf.str1.4
+                0x08000bdf        0xb build/f0/obj/printf.o
+ *fill*         0x08000bdf        0x1 
+ .rodata.kprintf
+                0x08000be0       0x84 build/f0/obj/printf.o
+                0x08000c64                        . = ALIGN (0x4)
+
+.rel.dyn        0x08000c64        0x0
+ .rel.iplt      0x08000c64        0x0 build/f0/obj/main.o
+
+.ARM.extab
+ *(.ARM.extab* .gnu.linkonce.armextab.*)
+
+.ARM            0x08000c64        0x0
+                0x08000c64                        __exidx_start = .
+ *(.ARM.exidx*)
+                0x08000c64                        __exidx_end = .
+
+.init_array     0x08000c64        0x0
+                0x08000c64                        . = ALIGN (0x4)
+                0x08000c64                        __init_array_start = .
+ *(SORT_BY_NAME(.init_array.*))
+ *(.init_array*)
+                0x08000c64                        __init_array_end = .
+                0x08000c64                        _sidata = LOADADDR (.data)
+
+.data           0x20000000        0xc load address 0x08000c64
+                0x20000000                        . = ALIGN (0x4)
+                0x20000000                        _sdata = .
+ *(.data)
+ *(.data*)
+ .data.APB2Clock
+                0x20000000        0x4 build/f0/obj/clock.o
+                0x20000000                APB2Clock
+ .data.APB1Clock
+                0x20000004        0x4 build/f0/obj/clock.o
+                0x20000004                APB1Clock
+ .data.SystemCoreClock
+                0x20000008        0x4 build/f0/obj/clock.o
+                0x20000008                SystemCoreClock
+ *(.ramfunc*)
+                0x2000000c                        . = ALIGN (0x4)
+                0x2000000c                        _edata = .
+
+.igot.plt       0x2000000c        0x0 load address 0x08000c70
+ .igot.plt      0x2000000c        0x0 build/f0/obj/main.o
+
+.bss            0x2000000c        0x4 load address 0x08000c70
+                0x2000000c                        . = ALIGN (0x4)
+                0x2000000c                        _sbss = .
+                0x2000000c                        __bss_start__ = _sbss
+ *(.bss)
+ *(.bss*)
+ .bss.s_ticks   0x2000000c        0x4 build/f0/obj/systick.o
+ *(COMMON)
+                0x20000010                        . = ALIGN (0x4)
+                0x20000010                        _ebss = .
+                0x20000010                        __bss_end__ = _ebss
+
+.noinit         0x20000010        0x0 load address 0x08000c70
+                0x20000010                        . = ALIGN (0x4)
+ *(.noinit*)
+                0x20000010                        . = ALIGN (0x4)
+
+._user_heap_stack
+                0x20000010      0x400 load address 0x08000c70
+                0x20000010                        . = ALIGN (0x8)
+                [!provide]                        PROVIDE (end = .)
+                [!provide]                        PROVIDE (_end = .)
+                0x20000010                        . = (. + _Min_Heap_Size)
+                0x20000410                        . = (. + _Min_Stack_Size)
+ *fill*         0x20000010      0x400 
+                0x20000410                        . = ALIGN (0x8)
+
+.ARM.attributes
+                0x00000000       0x2a
+ *(.ARM.attributes)
+ .ARM.attributes
+                0x00000000       0x2c build/f0/obj/flash.o
+ .ARM.attributes
+                0x0000002c       0x2c build/f0/obj/main.o
+ .ARM.attributes
+                0x00000058       0x2c build/f0/obj/startup.o
+ .ARM.attributes
+                0x00000084       0x2c build/f0/obj/clock.o
+ .ARM.attributes
+                0x000000b0       0x2c build/f0/obj/systick.o
+ .ARM.attributes
+                0x000000dc       0x2c build/f0/obj/uart.o
+ .ARM.attributes
+                0x00000108       0x2c build/f0/obj/printf.o
+ .ARM.attributes
+                0x00000134       0x1c /home/randy/.hermes/cache/scratch/arm-gnu-toolchain-14.2.rel1-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/14.2.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp/libc_nano.a(libc_a-strlen.o)
+ .ARM.attributes
+                0x00000150       0x1e /home/randy/.hermes/cache/scratch/arm-gnu-toolchain-14.2.rel1-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/14.2.1/thumb/v6-m/nofp/libgcc.a(_udivsi3.o)
+ .ARM.attributes
+                0x0000016e       0x1e /home/randy/.hermes/cache/scratch/arm-gnu-toolchain-14.2.rel1-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/14.2.1/thumb/v6-m/nofp/libgcc.a(_dvmd_tls.o)
+OUTPUT(build/f0/22-flash-interna.elf elf32-littlearm)
+LOAD linker stubs
+
+.debug_info     0x00000000     0x1b50
+ .debug_info    0x00000000      0x2cf build/f0/obj/flash.o
+ .debug_info    0x000002cf      0x573 build/f0/obj/main.o
+ .debug_info    0x00000842      0x1b0 build/f0/obj/startup.o
+ .debug_info    0x000009f2      0x21e build/f0/obj/clock.o
+ .debug_info    0x00000c10      0x282 build/f0/obj/systick.o
+ .debug_info    0x00000e92      0x5d2 build/f0/obj/uart.o
+ .debug_info    0x00001464      0x6ec build/f0/obj/printf.o
+
+.debug_abbrev   0x00000000      0xce1
+ .debug_abbrev  0x00000000      0x19e build/f0/obj/flash.o
+ .debug_abbrev  0x0000019e      0x226 build/f0/obj/main.o
+ .debug_abbrev  0x000003c4      0x112 build/f0/obj/startup.o
+ .debug_abbrev  0x000004d6      0x101 build/f0/obj/clock.o
+ .debug_abbrev  0x000005d7      0x1d3 build/f0/obj/systick.o
+ .debug_abbrev  0x000007aa      0x295 build/f0/obj/uart.o
+ .debug_abbrev  0x00000a3f      0x2a2 build/f0/obj/printf.o
+
+.debug_loclists
+                0x00000000      0xa19
+ .debug_loclists
+                0x00000000       0xf2 build/f0/obj/flash.o
+ .debug_loclists
+                0x000000f2      0x242 build/f0/obj/main.o
+ .debug_loclists
+                0x00000334       0x46 build/f0/obj/startup.o
+ .debug_loclists
+                0x0000037a       0xa3 build/f0/obj/systick.o
+ .debug_loclists
+                0x0000041d      0x149 build/f0/obj/uart.o
+ .debug_loclists
+                0x00000566      0x4b3 build/f0/obj/printf.o
+
+.debug_aranges  0x00000000      0x140
+ .debug_aranges
+                0x00000000       0x28 build/f0/obj/flash.o
+ .debug_aranges
+                0x00000028       0x28 build/f0/obj/main.o
+ .debug_aranges
+                0x00000050       0x28 build/f0/obj/startup.o
+ .debug_aranges
+                0x00000078       0x20 build/f0/obj/clock.o
+ .debug_aranges
+                0x00000098       0x48 build/f0/obj/systick.o
+ .debug_aranges
+                0x000000e0       0x38 build/f0/obj/uart.o
+ .debug_aranges
+                0x00000118       0x28 build/f0/obj/printf.o
+
+.debug_rnglists
+                0x00000000      0x2ee
+ .debug_rnglists
+                0x00000000       0x77 build/f0/obj/flash.o
+ .debug_rnglists
+                0x00000077       0xb2 build/f0/obj/main.o
+ .debug_rnglists
+                0x00000129       0x1a build/f0/obj/startup.o
+ .debug_rnglists
+                0x00000143       0x14 build/f0/obj/clock.o
+ .debug_rnglists
+                0x00000157       0x49 build/f0/obj/systick.o
+ .debug_rnglists
+                0x000001a0       0x65 build/f0/obj/uart.o
+ .debug_rnglists
+                0x00000205       0xe9 build/f0/obj/printf.o
+
+.debug_macro    0x00000000     0x2953
+ .debug_macro   0x00000000       0x85 build/f0/obj/flash.o
+ .debug_macro   0x00000085      0xaae build/f0/obj/flash.o
+ .debug_macro   0x00000b33       0x22 build/f0/obj/flash.o
+ .debug_macro   0x00000b55       0x56 build/f0/obj/flash.o
+ .debug_macro   0x00000bab       0x51 build/f0/obj/flash.o
+ .debug_macro   0x00000bfc      0x103 build/f0/obj/flash.o
+ .debug_macro   0x00000cff       0x6a build/f0/obj/flash.o
+ .debug_macro   0x00000d69      0x1df build/f0/obj/flash.o
+ .debug_macro   0x00000f48      0xa4d build/f0/obj/flash.o
+ .debug_macro   0x00001995       0x16 build/f0/obj/flash.o
+ .debug_macro   0x000019ab       0x9d build/f0/obj/main.o
+ .debug_macro   0x00001a48      0x190 build/f0/obj/main.o
+ .debug_macro   0x00001bd8      0xa53 build/f0/obj/main.o
+ .debug_macro   0x0000262b       0x1c build/f0/obj/main.o
+ .debug_macro   0x00002647       0x69 build/f0/obj/startup.o
+ .debug_macro   0x000026b0       0x8e build/f0/obj/clock.o
+ .debug_macro   0x0000273e       0x8e build/f0/obj/systick.o
+ .debug_macro   0x000027cc       0x98 build/f0/obj/uart.o
+ .debug_macro   0x00002864       0x97 build/f0/obj/printf.o
+ .debug_macro   0x000028fb       0x58 build/f0/obj/printf.o
+
+.debug_line     0x00000000     0x273c
+ .debug_line    0x00000000      0x577 build/f0/obj/flash.o
+ .debug_line    0x00000577      0x5f6 build/f0/obj/main.o
+ .debug_line    0x00000b6d      0x314 build/f0/obj/startup.o
+ .debug_line    0x00000e81      0x482 build/f0/obj/clock.o
+ .debug_line    0x00001303      0x4b7 build/f0/obj/systick.o
+ .debug_line    0x000017ba      0x53e build/f0/obj/uart.o
+ .debug_line    0x00001cf8      0xa44 build/f0/obj/printf.o
+
+.debug_str      0x00000000     0x6c1b
+ .debug_str     0x00000000     0x6c1b build/f0/obj/flash.o
+                               0x6497 (size before relaxing)
+ .debug_str     0x00006c1b     0x6863 build/f0/obj/main.o
+ .debug_str     0x00006c1b     0x3cf1 build/f0/obj/startup.o
+ .debug_str     0x00006c1b     0x684b build/f0/obj/clock.o
+ .debug_str     0x00006c1b     0x6863 build/f0/obj/systick.o
+ .debug_str     0x00006c1b     0x692f build/f0/obj/uart.o
+ .debug_str     0x00006c1b     0x6981 build/f0/obj/printf.o
+
+.comment        0x00000000       0x45
+ .comment       0x00000000       0x45 build/f0/obj/flash.o
+                                 0x46 (size before relaxing)
+ .comment       0x00000045       0x46 build/f0/obj/main.o
+ .comment       0x00000045       0x46 build/f0/obj/startup.o
+ .comment       0x00000045       0x46 build/f0/obj/clock.o
+ .comment       0x00000045       0x46 build/f0/obj/systick.o
+ .comment       0x00000045       0x46 build/f0/obj/uart.o
+ .comment       0x00000045       0x46 build/f0/obj/printf.o
+
+.debug_frame    0x00000000      0x264
+ .debug_frame   0x00000000       0x3c build/f0/obj/flash.o
+ .debug_frame   0x0000003c       0x50 build/f0/obj/main.o
+ .debug_frame   0x0000008c       0x3c build/f0/obj/startup.o
+ .debug_frame   0x000000c8       0x20 build/f0/obj/clock.o
+ .debug_frame   0x000000e8       0x8c build/f0/obj/systick.o
+ .debug_frame   0x00000174       0x64 build/f0/obj/uart.o
+ .debug_frame   0x000001d8       0x6c build/f0/obj/printf.o
+ .debug_frame   0x00000244       0x20 /home/randy/.hermes/cache/scratch/arm-gnu-toolchain-14.2.rel1-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/14.2.1/thumb/v6-m/nofp/libgcc.a(_udivsi3.o)
+
+.debug_line_str
+                0x00000000      0x1a2
+ .debug_line_str
+                0x00000000      0x1a2 /home/randy/.hermes/cache/scratch/arm-gnu-toolchain-14.2.rel1-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/14.2.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp/libc_nano.a(libc_a-strlen.o)
+                                 0xe0 (size before relaxing)
+ .debug_line_str
+                0x000001a2       0xc2 /home/randy/.hermes/cache/scratch/arm-gnu-toolchain-14.2.rel1-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/14.2.1/thumb/v6-m/nofp/libgcc.a(_udivsi3.o)
+ .debug_line_str
+                0x000001a2       0xc2 /home/randy/.hermes/cache/scratch/arm-gnu-toolchain-14.2.rel1-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/14.2.1/thumb/v6-m/nofp/libgcc.a(_dvmd_tls.o)

@@ -1,0 +1,552 @@
+Archive member included to satisfy reference by file (symbol)
+
+/home/randy/.hermes/cache/scratch/arm-gnu-toolchain-14.2.rel1-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/14.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc_nano.a(libc_a-strlen.o)
+                              build/f4/obj/printf.o (strlen)
+
+Discarded input sections
+
+ .group         0x00000000        0xc build/f4/obj/main.o
+ .group         0x00000000        0xc build/f4/obj/main.o
+ .group         0x00000000        0xc build/f4/obj/main.o
+ .group         0x00000000        0xc build/f4/obj/main.o
+ .group         0x00000000        0xc build/f4/obj/main.o
+ .group         0x00000000        0xc build/f4/obj/main.o
+ .group         0x00000000        0xc build/f4/obj/main.o
+ .group         0x00000000        0xc build/f4/obj/main.o
+ .group         0x00000000        0xc build/f4/obj/main.o
+ .group         0x00000000        0xc build/f4/obj/main.o
+ .text          0x00000000        0x0 build/f4/obj/main.o
+ .data          0x00000000        0x0 build/f4/obj/main.o
+ .bss           0x00000000        0x0 build/f4/obj/main.o
+ .group         0x00000000        0xc build/f4/obj/startup.o
+ .group         0x00000000        0xc build/f4/obj/startup.o
+ .group         0x00000000        0xc build/f4/obj/startup.o
+ .group         0x00000000        0xc build/f4/obj/startup.o
+ .group         0x00000000        0xc build/f4/obj/startup.o
+ .group         0x00000000        0xc build/f4/obj/startup.o
+ .group         0x00000000        0xc build/f4/obj/startup.o
+ .text          0x00000000        0x0 build/f4/obj/startup.o
+ .data          0x00000000        0x0 build/f4/obj/startup.o
+ .bss           0x00000000        0x0 build/f4/obj/startup.o
+ .debug_macro   0x00000000       0x22 build/f4/obj/startup.o
+ .debug_macro   0x00000000       0x56 build/f4/obj/startup.o
+ .debug_macro   0x00000000       0x51 build/f4/obj/startup.o
+ .debug_macro   0x00000000      0x103 build/f4/obj/startup.o
+ .debug_macro   0x00000000       0x6a build/f4/obj/startup.o
+ .debug_macro   0x00000000      0x1df build/f4/obj/startup.o
+ .group         0x00000000        0xc build/f4/obj/clock.o
+ .group         0x00000000        0xc build/f4/obj/clock.o
+ .group         0x00000000        0xc build/f4/obj/clock.o
+ .group         0x00000000        0xc build/f4/obj/clock.o
+ .group         0x00000000        0xc build/f4/obj/clock.o
+ .group         0x00000000        0xc build/f4/obj/clock.o
+ .group         0x00000000        0xc build/f4/obj/clock.o
+ .group         0x00000000        0xc build/f4/obj/clock.o
+ .group         0x00000000        0xc build/f4/obj/clock.o
+ .group         0x00000000        0xc build/f4/obj/clock.o
+ .text          0x00000000        0x0 build/f4/obj/clock.o
+ .data          0x00000000        0x0 build/f4/obj/clock.o
+ .bss           0x00000000        0x0 build/f4/obj/clock.o
+ .debug_macro   0x00000000      0xad8 build/f4/obj/clock.o
+ .debug_macro   0x00000000       0x22 build/f4/obj/clock.o
+ .debug_macro   0x00000000       0x56 build/f4/obj/clock.o
+ .debug_macro   0x00000000       0x51 build/f4/obj/clock.o
+ .debug_macro   0x00000000      0x103 build/f4/obj/clock.o
+ .debug_macro   0x00000000       0x6a build/f4/obj/clock.o
+ .debug_macro   0x00000000      0x1df build/f4/obj/clock.o
+ .debug_macro   0x00000000      0x190 build/f4/obj/clock.o
+ .debug_macro   0x00000000      0xb08 build/f4/obj/clock.o
+ .debug_macro   0x00000000       0x1c build/f4/obj/clock.o
+ .group         0x00000000        0xc build/f4/obj/systick.o
+ .group         0x00000000        0xc build/f4/obj/systick.o
+ .group         0x00000000        0xc build/f4/obj/systick.o
+ .group         0x00000000        0xc build/f4/obj/systick.o
+ .group         0x00000000        0xc build/f4/obj/systick.o
+ .group         0x00000000        0xc build/f4/obj/systick.o
+ .group         0x00000000        0xc build/f4/obj/systick.o
+ .group         0x00000000        0xc build/f4/obj/systick.o
+ .group         0x00000000        0xc build/f4/obj/systick.o
+ .group         0x00000000        0xc build/f4/obj/systick.o
+ .text          0x00000000        0x0 build/f4/obj/systick.o
+ .data          0x00000000        0x0 build/f4/obj/systick.o
+ .bss           0x00000000        0x0 build/f4/obj/systick.o
+ .text.systick_init
+                0x00000000       0x28 build/f4/obj/systick.o
+ .text.millis   0x00000000        0xc build/f4/obj/systick.o
+ .text.delay_us
+                0x00000000       0x48 build/f4/obj/systick.o
+ .debug_macro   0x00000000      0xade build/f4/obj/systick.o
+ .debug_macro   0x00000000       0x22 build/f4/obj/systick.o
+ .debug_macro   0x00000000       0x56 build/f4/obj/systick.o
+ .debug_macro   0x00000000       0x51 build/f4/obj/systick.o
+ .debug_macro   0x00000000      0x103 build/f4/obj/systick.o
+ .debug_macro   0x00000000       0x6a build/f4/obj/systick.o
+ .debug_macro   0x00000000      0x1df build/f4/obj/systick.o
+ .debug_macro   0x00000000      0x190 build/f4/obj/systick.o
+ .debug_macro   0x00000000      0xb08 build/f4/obj/systick.o
+ .debug_macro   0x00000000       0x1c build/f4/obj/systick.o
+ .group         0x00000000        0xc build/f4/obj/uart.o
+ .group         0x00000000        0xc build/f4/obj/uart.o
+ .group         0x00000000        0xc build/f4/obj/uart.o
+ .group         0x00000000        0xc build/f4/obj/uart.o
+ .group         0x00000000        0xc build/f4/obj/uart.o
+ .group         0x00000000        0xc build/f4/obj/uart.o
+ .group         0x00000000        0xc build/f4/obj/uart.o
+ .group         0x00000000        0xc build/f4/obj/uart.o
+ .group         0x00000000        0xc build/f4/obj/uart.o
+ .group         0x00000000        0xc build/f4/obj/uart.o
+ .text          0x00000000        0x0 build/f4/obj/uart.o
+ .data          0x00000000        0x0 build/f4/obj/uart.o
+ .bss           0x00000000        0x0 build/f4/obj/uart.o
+ .text.uart_puts
+                0x00000000       0x38 build/f4/obj/uart.o
+ .text.uart_getc
+                0x00000000       0x18 build/f4/obj/uart.o
+ .debug_macro   0x00000000      0xade build/f4/obj/uart.o
+ .debug_macro   0x00000000       0x22 build/f4/obj/uart.o
+ .debug_macro   0x00000000       0x56 build/f4/obj/uart.o
+ .debug_macro   0x00000000       0x51 build/f4/obj/uart.o
+ .debug_macro   0x00000000      0x103 build/f4/obj/uart.o
+ .debug_macro   0x00000000       0x6a build/f4/obj/uart.o
+ .debug_macro   0x00000000      0x1df build/f4/obj/uart.o
+ .debug_macro   0x00000000      0x190 build/f4/obj/uart.o
+ .debug_macro   0x00000000      0xb08 build/f4/obj/uart.o
+ .debug_macro   0x00000000       0x1c build/f4/obj/uart.o
+ .group         0x00000000        0xc build/f4/obj/printf.o
+ .group         0x00000000        0xc build/f4/obj/printf.o
+ .group         0x00000000        0xc build/f4/obj/printf.o
+ .group         0x00000000        0xc build/f4/obj/printf.o
+ .group         0x00000000        0xc build/f4/obj/printf.o
+ .group         0x00000000        0xc build/f4/obj/printf.o
+ .group         0x00000000        0xc build/f4/obj/printf.o
+ .group         0x00000000        0xc build/f4/obj/printf.o
+ .group         0x00000000        0xc build/f4/obj/printf.o
+ .group         0x00000000        0xc build/f4/obj/printf.o
+ .group         0x00000000        0xc build/f4/obj/printf.o
+ .text          0x00000000        0x0 build/f4/obj/printf.o
+ .data          0x00000000        0x0 build/f4/obj/printf.o
+ .bss           0x00000000        0x0 build/f4/obj/printf.o
+ .debug_macro   0x00000000      0xade build/f4/obj/printf.o
+ .debug_macro   0x00000000       0x22 build/f4/obj/printf.o
+ .debug_macro   0x00000000       0x56 build/f4/obj/printf.o
+ .debug_macro   0x00000000       0x51 build/f4/obj/printf.o
+ .debug_macro   0x00000000      0x103 build/f4/obj/printf.o
+ .debug_macro   0x00000000       0x6a build/f4/obj/printf.o
+ .debug_macro   0x00000000      0x1df build/f4/obj/printf.o
+ .debug_macro   0x00000000      0x190 build/f4/obj/printf.o
+ .debug_macro   0x00000000      0xb08 build/f4/obj/printf.o
+ .debug_macro   0x00000000       0x1c build/f4/obj/printf.o
+ .data          0x00000000        0x0 /home/randy/.hermes/cache/scratch/arm-gnu-toolchain-14.2.rel1-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/14.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc_nano.a(libc_a-strlen.o)
+ .bss           0x00000000        0x0 /home/randy/.hermes/cache/scratch/arm-gnu-toolchain-14.2.rel1-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/14.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc_nano.a(libc_a-strlen.o)
+ .ARM.extab     0x00000000        0x0 /home/randy/.hermes/cache/scratch/arm-gnu-toolchain-14.2.rel1-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/14.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc_nano.a(libc_a-strlen.o)
+
+Memory Configuration
+
+Name             Origin             Length             Attributes
+FLASH            0x08000000         0x00080000         xr
+RAM              0x20000000         0x00020000         xrw
+*default*        0x00000000         0xffffffff
+
+Linker script and memory map
+
+LOAD build/f4/obj/main.o
+LOAD build/f4/obj/startup.o
+LOAD build/f4/obj/clock.o
+LOAD build/f4/obj/systick.o
+LOAD build/f4/obj/uart.o
+LOAD build/f4/obj/printf.o
+LOAD /home/randy/.hermes/cache/scratch/arm-gnu-toolchain-14.2.rel1-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/14.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc_nano.a
+LOAD /home/randy/.hermes/cache/scratch/arm-gnu-toolchain-14.2.rel1-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/14.2.1/thumb/v7e-m+fp/hard/libgcc.a
+START GROUP
+LOAD /home/randy/.hermes/cache/scratch/arm-gnu-toolchain-14.2.rel1-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/14.2.1/thumb/v7e-m+fp/hard/libgcc.a
+LOAD /home/randy/.hermes/cache/scratch/arm-gnu-toolchain-14.2.rel1-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/14.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc_nano.a
+END GROUP
+START GROUP
+LOAD /home/randy/.hermes/cache/scratch/arm-gnu-toolchain-14.2.rel1-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/14.2.1/thumb/v7e-m+fp/hard/libgcc.a
+LOAD /home/randy/.hermes/cache/scratch/arm-gnu-toolchain-14.2.rel1-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/14.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc_nano.a
+LOAD /home/randy/.hermes/cache/scratch/arm-gnu-toolchain-14.2.rel1-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/14.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libnosys.a
+END GROUP
+START GROUP
+LOAD /home/randy/.hermes/cache/scratch/arm-gnu-toolchain-14.2.rel1-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/14.2.1/thumb/v7e-m+fp/hard/libgcc.a
+LOAD /home/randy/.hermes/cache/scratch/arm-gnu-toolchain-14.2.rel1-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/14.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc_nano.a
+LOAD /home/randy/.hermes/cache/scratch/arm-gnu-toolchain-14.2.rel1-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/14.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libnosys.a
+END GROUP
+                0x00000000                        _Min_Heap_Size = 0x0
+                0x00000800                        _Min_Stack_Size = 0x800
+                0x20020000                        _estack = (ORIGIN (RAM) + LENGTH (RAM))
+
+.isr_vector     0x08000000      0x1c4
+                0x08000000                        . = ALIGN (0x4)
+ *(.isr_vector)
+ .isr_vector    0x08000000      0x1c4 build/f4/obj/startup.o
+                0x08000000                vector_table
+                0x080001c4                        . = ALIGN (0x4)
+
+.text           0x080001c4      0x6e8
+                0x080001c4                        . = ALIGN (0x4)
+ *(.text)
+ .text          0x080001c4       0x10 /home/randy/.hermes/cache/scratch/arm-gnu-toolchain-14.2.rel1-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/14.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc_nano.a(libc_a-strlen.o)
+                0x080001c4                strlen
+ *(.text*)
+ .text.startup.main
+                0x080001d4       0xcc build/f4/obj/main.o
+                0x080001d4                main
+ .text.Default_Handler
+                0x080002a0        0x4 build/f4/obj/startup.o
+                0x080002a0                RTC_Alarm_IRQHandler
+                0x080002a0                EXTI2_IRQHandler
+                0x080002a0                TIM8_CC_IRQHandler
+                0x080002a0                DebugMon_Handler
+                0x080002a0                FMPI2C1_EV_IRQHandler
+                0x080002a0                SPI4_IRQHandler
+                0x080002a0                TIM1_CC_IRQHandler
+                0x080002a0                DMA2_Stream5_IRQHandler
+                0x080002a0                HardFault_Handler
+                0x080002a0                DMA1_Stream5_IRQHandler
+                0x080002a0                PVD_IRQHandler
+                0x080002a0                SDIO_IRQHandler
+                0x080002a0                TAMP_STAMP_IRQHandler
+                0x080002a0                PendSV_Handler
+                0x080002a0                NMI_Handler
+                0x080002a0                CAN2_RX1_IRQHandler
+                0x080002a0                EXTI3_IRQHandler
+                0x080002a0                TIM8_TRG_COM_TIM14_IRQHandler
+                0x080002a0                TIM1_UP_TIM10_IRQHandler
+                0x080002a0                TIM8_UP_TIM13_IRQHandler
+                0x080002a0                I2C3_ER_IRQHandler
+                0x080002a0                EXTI0_IRQHandler
+                0x080002a0                I2C2_EV_IRQHandler
+                0x080002a0                DMA1_Stream2_IRQHandler
+                0x080002a0                CAN1_RX0_IRQHandler
+                0x080002a0                FPU_IRQHandler
+                0x080002a0                OTG_HS_WKUP_IRQHandler
+                0x080002a0                UsageFault_Handler
+                0x080002a0                CAN2_SCE_IRQHandler
+                0x080002a0                DMA2_Stream2_IRQHandler
+                0x080002a0                SPI1_IRQHandler
+                0x080002a0                TIM6_DAC_IRQHandler
+                0x080002a0                TIM1_BRK_TIM9_IRQHandler
+                0x080002a0                DCMI_IRQHandler
+                0x080002a0                CAN2_RX0_IRQHandler
+                0x080002a0                DMA2_Stream3_IRQHandler
+                0x080002a0                SAI2_IRQHandler
+                0x080002a0                USART6_IRQHandler
+                0x080002a0                USART3_IRQHandler
+                0x080002a0                CAN1_RX1_IRQHandler
+                0x080002a0                UART5_IRQHandler
+                0x080002a0                DMA2_Stream0_IRQHandler
+                0x080002a0                TIM4_IRQHandler
+                0x080002a0                QUADSPI_IRQHandler
+                0x080002a0                I2C1_EV_IRQHandler
+                0x080002a0                DMA1_Stream6_IRQHandler
+                0x080002a0                DMA1_Stream1_IRQHandler
+                0x080002a0                UART4_IRQHandler
+                0x080002a0                TIM3_IRQHandler
+                0x080002a0                RCC_IRQHandler
+                0x080002a0                TIM8_BRK_TIM12_IRQHandler
+                0x080002a0                Default_Handler
+                0x080002a0                CEC_IRQHandler
+                0x080002a0                EXTI15_10_IRQHandler
+                0x080002a0                ADC_IRQHandler
+                0x080002a0                DMA1_Stream7_IRQHandler
+                0x080002a0                TIM7_IRQHandler
+                0x080002a0                CAN2_TX_IRQHandler
+                0x080002a0                TIM5_IRQHandler
+                0x080002a0                DMA2_Stream7_IRQHandler
+                0x080002a0                I2C3_EV_IRQHandler
+                0x080002a0                EXTI9_5_IRQHandler
+                0x080002a0                RTC_WKUP_IRQHandler
+                0x080002a0                SPDIF_RX_IRQHandler
+                0x080002a0                SPI2_IRQHandler
+                0x080002a0                OTG_HS_EP1_IN_IRQHandler
+                0x080002a0                MemManage_Handler
+                0x080002a0                DMA1_Stream0_IRQHandler
+                0x080002a0                CAN1_TX_IRQHandler
+                0x080002a0                SVC_Handler
+                0x080002a0                FMPI2C1_ER_IRQHandler
+                0x080002a0                EXTI4_IRQHandler
+                0x080002a0                OTG_HS_EP1_OUT_IRQHandler
+                0x080002a0                WWDG_IRQHandler
+                0x080002a0                TIM2_IRQHandler
+                0x080002a0                OTG_FS_WKUP_IRQHandler
+                0x080002a0                TIM1_TRG_COM_TIM11_IRQHandler
+                0x080002a0                OTG_HS_IRQHandler
+                0x080002a0                EXTI1_IRQHandler
+                0x080002a0                USART2_IRQHandler
+                0x080002a0                I2C2_ER_IRQHandler
+                0x080002a0                DMA2_Stream1_IRQHandler
+                0x080002a0                CAN1_SCE_IRQHandler
+                0x080002a0                FLASH_IRQHandler
+                0x080002a0                DMA2_Stream4_IRQHandler
+                0x080002a0                BusFault_Handler
+                0x080002a0                USART1_IRQHandler
+                0x080002a0                OTG_FS_IRQHandler
+                0x080002a0                SPI3_IRQHandler
+                0x080002a0                DMA1_Stream4_IRQHandler
+                0x080002a0                I2C1_ER_IRQHandler
+                0x080002a0                FMC_IRQHandler
+                0x080002a0                DMA2_Stream6_IRQHandler
+                0x080002a0                SAI1_IRQHandler
+                0x080002a0                DMA1_Stream3_IRQHandler
+ .text.Reset_Handler
+                0x080002a4       0x90 build/f4/obj/startup.o
+                0x080002a4                Reset_Handler
+ .text.clock_init
+                0x08000334       0xf4 build/f4/obj/clock.o
+                0x08000334                clock_init
+ .text.SysTick_Handler
+                0x08000428       0x10 build/f4/obj/systick.o
+                0x08000428                SysTick_Handler
+ .text.delay_ms
+                0x08000438       0x1c build/f4/obj/systick.o
+                0x08000438                delay_ms
+ .text.system_init
+                0x08000454       0x2c build/f4/obj/systick.o
+                0x08000454                system_init
+ .text.uart_init
+                0x08000480       0x84 build/f4/obj/uart.o
+                0x08000480                uart_init
+ .text.uart_putc
+                0x08000504       0x10 build/f4/obj/uart.o
+                0x08000504                uart_putc
+ .text.out_num  0x08000514      0x108 build/f4/obj/printf.o
+ .text.kprintf  0x0800061c      0x290 build/f4/obj/printf.o
+                0x0800061c                kprintf
+ *(.glue_7)
+ .glue_7        0x080008ac        0x0 linker stubs
+ *(.glue_7t)
+ .glue_7t       0x080008ac        0x0 linker stubs
+ *(.eh_frame)
+ *(.init)
+ *(.fini)
+                0x080008ac                        . = ALIGN (0x4)
+                0x080008ac                        _etext = .
+
+.vfp11_veneer   0x080008ac        0x0
+ .vfp11_veneer  0x080008ac        0x0 linker stubs
+
+.v4_bx          0x080008ac        0x0
+ .v4_bx         0x080008ac        0x0 linker stubs
+
+.iplt           0x080008ac        0x0
+ .iplt          0x080008ac        0x0 build/f4/obj/main.o
+
+.rodata         0x080008ac       0xac
+                0x080008ac                        . = ALIGN (0x4)
+ *(.rodata)
+ *(.rodata*)
+ .rodata.main.str1.4
+                0x080008ac       0xab build/f4/obj/main.o
+                                 0x7c (size before relaxing)
+ .rodata.out_num.str1.4
+                0x08000957       0x25 build/f4/obj/printf.o
+ .rodata.kprintf.str1.4
+                0x08000957        0xb build/f4/obj/printf.o
+                0x0800097c                        . = ALIGN (0x4)
+ *fill*         0x08000957        0x1 
+
+.ARM.extab
+ *(.ARM.extab* .gnu.linkonce.armextab.*)
+
+.ARM            0x08000958        0x8
+                0x08000958                        __exidx_start = .
+ *(.ARM.exidx*)
+ .ARM.exidx     0x08000958        0x8 /home/randy/.hermes/cache/scratch/arm-gnu-toolchain-14.2.rel1-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/14.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc_nano.a(libc_a-strlen.o)
+                0x08000960                        __exidx_end = .
+
+.rel.dyn        0x08000960        0x0
+ .rel.iplt      0x08000960        0x0 build/f4/obj/main.o
+
+.init_array     0x08000960        0x0
+                0x08000960                        . = ALIGN (0x4)
+                0x08000960                        __init_array_start = .
+ *(SORT_BY_NAME(.init_array.*))
+ *(.init_array*)
+                0x08000960                        __init_array_end = .
+                0x08000960                        _sidata = LOADADDR (.data)
+
+.data           0x20000000        0xc load address 0x08000960
+                0x20000000                        . = ALIGN (0x4)
+                0x20000000                        _sdata = .
+ *(.data)
+ *(.data*)
+ .data.APB2Clock
+                0x20000000        0x4 build/f4/obj/clock.o
+                0x20000000                APB2Clock
+ .data.APB1Clock
+                0x20000004        0x4 build/f4/obj/clock.o
+                0x20000004                APB1Clock
+ .data.SystemCoreClock
+                0x20000008        0x4 build/f4/obj/clock.o
+                0x20000008                SystemCoreClock
+ *(.ramfunc*)
+                0x2000000c                        . = ALIGN (0x4)
+                0x2000000c                        _edata = .
+
+.igot.plt       0x2000000c        0x0 load address 0x0800096c
+ .igot.plt      0x2000000c        0x0 build/f4/obj/main.o
+
+.bss            0x2000000c        0x4 load address 0x0800096c
+                0x2000000c                        . = ALIGN (0x4)
+                0x2000000c                        _sbss = .
+                0x2000000c                        __bss_start__ = _sbss
+ *(.bss)
+ *(.bss*)
+ .bss.s_ticks   0x2000000c        0x4 build/f4/obj/systick.o
+ *(COMMON)
+                0x20000010                        . = ALIGN (0x4)
+                0x20000010                        _ebss = .
+                0x20000010                        __bss_end__ = _ebss
+
+.noinit         0x20000010        0x0 load address 0x0800096c
+                0x20000010                        . = ALIGN (0x4)
+ *(.noinit*)
+                0x20000010                        . = ALIGN (0x4)
+
+._user_heap_stack
+                0x20000010      0x800 load address 0x0800096c
+                0x20000010                        . = ALIGN (0x8)
+                [!provide]                        PROVIDE (end = .)
+                [!provide]                        PROVIDE (_end = .)
+                0x20000010                        . = (. + _Min_Heap_Size)
+                0x20000810                        . = (. + _Min_Stack_Size)
+ *fill*         0x20000010      0x800 
+                0x20000810                        . = ALIGN (0x8)
+
+.ARM.attributes
+                0x00000000       0x32
+ *(.ARM.attributes)
+ .ARM.attributes
+                0x00000000       0x34 build/f4/obj/main.o
+ .ARM.attributes
+                0x00000034       0x34 build/f4/obj/startup.o
+ .ARM.attributes
+                0x00000068       0x34 build/f4/obj/clock.o
+ .ARM.attributes
+                0x0000009c       0x34 build/f4/obj/systick.o
+ .ARM.attributes
+                0x000000d0       0x34 build/f4/obj/uart.o
+ .ARM.attributes
+                0x00000104       0x34 build/f4/obj/printf.o
+ .ARM.attributes
+                0x00000138       0x17 /home/randy/.hermes/cache/scratch/arm-gnu-toolchain-14.2.rel1-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/14.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc_nano.a(libc_a-strlen.o)
+OUTPUT(build/f4/16-dac.elf elf32-littlearm)
+LOAD linker stubs
+
+.debug_info     0x00000000     0x1c0d
+ .debug_info    0x00000000      0x74b build/f4/obj/main.o
+ .debug_info    0x0000074b      0x1ba build/f4/obj/startup.o
+ .debug_info    0x00000905      0x329 build/f4/obj/clock.o
+ .debug_info    0x00000c2e      0x256 build/f4/obj/systick.o
+ .debug_info    0x00000e84      0x6b4 build/f4/obj/uart.o
+ .debug_info    0x00001538      0x6d5 build/f4/obj/printf.o
+
+.debug_abbrev   0x00000000      0xa82
+ .debug_abbrev  0x00000000      0x22f build/f4/obj/main.o
+ .debug_abbrev  0x0000022f      0x103 build/f4/obj/startup.o
+ .debug_abbrev  0x00000332       0xdb build/f4/obj/clock.o
+ .debug_abbrev  0x0000040d      0x1af build/f4/obj/systick.o
+ .debug_abbrev  0x000005bc      0x245 build/f4/obj/uart.o
+ .debug_abbrev  0x00000801      0x281 build/f4/obj/printf.o
+
+.debug_loclists
+                0x00000000      0x7de
+ .debug_loclists
+                0x00000000       0x44 build/f4/obj/main.o
+ .debug_loclists
+                0x00000044       0x63 build/f4/obj/startup.o
+ .debug_loclists
+                0x000000a7       0x90 build/f4/obj/systick.o
+ .debug_loclists
+                0x00000137      0x149 build/f4/obj/uart.o
+ .debug_loclists
+                0x00000280      0x55e build/f4/obj/printf.o
+
+.debug_aranges  0x00000000      0x110
+ .debug_aranges
+                0x00000000       0x20 build/f4/obj/main.o
+ .debug_aranges
+                0x00000020       0x28 build/f4/obj/startup.o
+ .debug_aranges
+                0x00000048       0x20 build/f4/obj/clock.o
+ .debug_aranges
+                0x00000068       0x48 build/f4/obj/systick.o
+ .debug_aranges
+                0x000000b0       0x38 build/f4/obj/uart.o
+ .debug_aranges
+                0x000000e8       0x28 build/f4/obj/printf.o
+
+.debug_rnglists
+                0x00000000      0x1c8
+ .debug_rnglists
+                0x00000000       0x4a build/f4/obj/main.o
+ .debug_rnglists
+                0x0000004a       0x1a build/f4/obj/startup.o
+ .debug_rnglists
+                0x00000064       0x14 build/f4/obj/clock.o
+ .debug_rnglists
+                0x00000078       0x31 build/f4/obj/systick.o
+ .debug_rnglists
+                0x000000a9       0x44 build/f4/obj/uart.o
+ .debug_rnglists
+                0x000000ed       0xdb build/f4/obj/printf.o
+
+.debug_macro    0x00000000     0x2a54
+ .debug_macro   0x00000000       0xa4 build/f4/obj/main.o
+ .debug_macro   0x000000a4      0xade build/f4/obj/main.o
+ .debug_macro   0x00000b82       0x22 build/f4/obj/main.o
+ .debug_macro   0x00000ba4       0x56 build/f4/obj/main.o
+ .debug_macro   0x00000bfa       0x51 build/f4/obj/main.o
+ .debug_macro   0x00000c4b      0x103 build/f4/obj/main.o
+ .debug_macro   0x00000d4e       0x6a build/f4/obj/main.o
+ .debug_macro   0x00000db8      0x1df build/f4/obj/main.o
+ .debug_macro   0x00000f97      0x190 build/f4/obj/main.o
+ .debug_macro   0x00001127      0xb08 build/f4/obj/main.o
+ .debug_macro   0x00001c2f       0x1c build/f4/obj/main.o
+ .debug_macro   0x00001c4b       0x70 build/f4/obj/startup.o
+ .debug_macro   0x00001cbb      0xad8 build/f4/obj/startup.o
+ .debug_macro   0x00002793       0xac build/f4/obj/clock.o
+ .debug_macro   0x0000283f       0x8e build/f4/obj/systick.o
+ .debug_macro   0x000028cd       0x98 build/f4/obj/uart.o
+ .debug_macro   0x00002965       0x97 build/f4/obj/printf.o
+ .debug_macro   0x000029fc       0x58 build/f4/obj/printf.o
+
+.debug_line     0x00000000     0x2018
+ .debug_line    0x00000000      0x44e build/f4/obj/main.o
+ .debug_line    0x0000044e      0x314 build/f4/obj/startup.o
+ .debug_line    0x00000762      0x4ea build/f4/obj/clock.o
+ .debug_line    0x00000c4c      0x48d build/f4/obj/systick.o
+ .debug_line    0x000010d9      0x4ff build/f4/obj/uart.o
+ .debug_line    0x000015d8      0xa40 build/f4/obj/printf.o
+
+.debug_str      0x00000000     0x6ffe
+ .debug_str     0x00000000     0x6ffe build/f4/obj/main.o
+                               0x6d13 (size before relaxing)
+ .debug_str     0x00006ffe     0x3e09 build/f4/obj/startup.o
+ .debug_str     0x00006ffe     0x6bf5 build/f4/obj/clock.o
+ .debug_str     0x00006ffe     0x6b1f build/f4/obj/systick.o
+ .debug_str     0x00006ffe     0x6c91 build/f4/obj/uart.o
+ .debug_str     0x00006ffe     0x6c3a build/f4/obj/printf.o
+
+.comment        0x00000000       0x45
+ .comment       0x00000000       0x45 build/f4/obj/main.o
+                                 0x46 (size before relaxing)
+ .comment       0x00000045       0x46 build/f4/obj/startup.o
+ .comment       0x00000045       0x46 build/f4/obj/clock.o
+ .comment       0x00000045       0x46 build/f4/obj/systick.o
+ .comment       0x00000045       0x46 build/f4/obj/uart.o
+ .comment       0x00000045       0x46 build/f4/obj/printf.o
+
+.debug_frame    0x00000000      0x22c
+ .debug_frame   0x00000000       0x28 build/f4/obj/main.o
+ .debug_frame   0x00000028       0x3c build/f4/obj/startup.o
+ .debug_frame   0x00000064       0x2c build/f4/obj/clock.o
+ .debug_frame   0x00000090       0x80 build/f4/obj/systick.o
+ .debug_frame   0x00000110       0x6c build/f4/obj/uart.o
+ .debug_frame   0x0000017c       0x90 build/f4/obj/printf.o
+ .debug_frame   0x0000020c       0x20 /home/randy/.hermes/cache/scratch/arm-gnu-toolchain-14.2.rel1-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/14.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc_nano.a(libc_a-strlen.o)
+
+.debug_line_str
+                0x00000000       0xe4
+ .debug_line_str
+                0x00000000       0xe4 /home/randy/.hermes/cache/scratch/arm-gnu-toolchain-14.2.rel1-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/14.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc_nano.a(libc_a-strlen.o)

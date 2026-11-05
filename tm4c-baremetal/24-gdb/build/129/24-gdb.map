@@ -1,0 +1,647 @@
+
+Discarded input sections
+
+ .group         0x00000000        0xc build/129/obj/fault.o
+ .group         0x00000000        0xc build/129/obj/fault.o
+ .group         0x00000000        0xc build/129/obj/fault.o
+ .group         0x00000000        0xc build/129/obj/fault.o
+ .group         0x00000000        0xc build/129/obj/fault.o
+ .group         0x00000000        0xc build/129/obj/fault.o
+ .group         0x00000000        0xc build/129/obj/fault.o
+ .group         0x00000000        0xc build/129/obj/fault.o
+ .group         0x00000000        0xc build/129/obj/fault.o
+ .group         0x00000000        0xc build/129/obj/fault.o
+ .group         0x00000000        0xc build/129/obj/fault.o
+ .text          0x00000000        0x0 build/129/obj/fault.o
+ .data          0x00000000        0x0 build/129/obj/fault.o
+ .bss           0x00000000        0x0 build/129/obj/fault.o
+ .group         0x00000000        0xc build/129/obj/main.o
+ .group         0x00000000        0xc build/129/obj/main.o
+ .group         0x00000000        0xc build/129/obj/main.o
+ .group         0x00000000        0xc build/129/obj/main.o
+ .group         0x00000000        0xc build/129/obj/main.o
+ .group         0x00000000        0xc build/129/obj/main.o
+ .group         0x00000000        0xc build/129/obj/main.o
+ .group         0x00000000        0xc build/129/obj/main.o
+ .group         0x00000000        0xc build/129/obj/main.o
+ .group         0x00000000        0xc build/129/obj/main.o
+ .group         0x00000000        0xc build/129/obj/main.o
+ .text          0x00000000        0x0 build/129/obj/main.o
+ .data          0x00000000        0x0 build/129/obj/main.o
+ .bss           0x00000000        0x0 build/129/obj/main.o
+ .debug_macro   0x00000000      0xad8 build/129/obj/main.o
+ .debug_macro   0x00000000       0x22 build/129/obj/main.o
+ .debug_macro   0x00000000       0x56 build/129/obj/main.o
+ .debug_macro   0x00000000       0x51 build/129/obj/main.o
+ .debug_macro   0x00000000      0x103 build/129/obj/main.o
+ .debug_macro   0x00000000       0x6a build/129/obj/main.o
+ .debug_macro   0x00000000      0x1df build/129/obj/main.o
+ .debug_macro   0x00000000      0x190 build/129/obj/main.o
+ .debug_macro   0x00000000      0x698 build/129/obj/main.o
+ .debug_macro   0x00000000      0x166 build/129/obj/main.o
+ .debug_macro   0x00000000       0x34 build/129/obj/main.o
+ .group         0x00000000        0xc build/129/obj/startup.o
+ .group         0x00000000        0xc build/129/obj/startup.o
+ .group         0x00000000        0xc build/129/obj/startup.o
+ .group         0x00000000        0xc build/129/obj/startup.o
+ .group         0x00000000        0xc build/129/obj/startup.o
+ .group         0x00000000        0xc build/129/obj/startup.o
+ .group         0x00000000        0xc build/129/obj/startup.o
+ .text          0x00000000        0x0 build/129/obj/startup.o
+ .data          0x00000000        0x0 build/129/obj/startup.o
+ .bss           0x00000000        0x0 build/129/obj/startup.o
+ .debug_macro   0x00000000      0xad8 build/129/obj/startup.o
+ .debug_macro   0x00000000       0x22 build/129/obj/startup.o
+ .debug_macro   0x00000000       0x56 build/129/obj/startup.o
+ .debug_macro   0x00000000       0x51 build/129/obj/startup.o
+ .debug_macro   0x00000000      0x103 build/129/obj/startup.o
+ .debug_macro   0x00000000       0x6a build/129/obj/startup.o
+ .debug_macro   0x00000000      0x1df build/129/obj/startup.o
+ .group         0x00000000        0xc build/129/obj/clock.o
+ .group         0x00000000        0xc build/129/obj/clock.o
+ .group         0x00000000        0xc build/129/obj/clock.o
+ .group         0x00000000        0xc build/129/obj/clock.o
+ .group         0x00000000        0xc build/129/obj/clock.o
+ .group         0x00000000        0xc build/129/obj/clock.o
+ .group         0x00000000        0xc build/129/obj/clock.o
+ .group         0x00000000        0xc build/129/obj/clock.o
+ .group         0x00000000        0xc build/129/obj/clock.o
+ .group         0x00000000        0xc build/129/obj/clock.o
+ .group         0x00000000        0xc build/129/obj/clock.o
+ .text          0x00000000        0x0 build/129/obj/clock.o
+ .data          0x00000000        0x0 build/129/obj/clock.o
+ .bss           0x00000000        0x0 build/129/obj/clock.o
+ .debug_macro   0x00000000      0xad8 build/129/obj/clock.o
+ .debug_macro   0x00000000       0x22 build/129/obj/clock.o
+ .debug_macro   0x00000000       0x56 build/129/obj/clock.o
+ .debug_macro   0x00000000       0x51 build/129/obj/clock.o
+ .debug_macro   0x00000000      0x103 build/129/obj/clock.o
+ .debug_macro   0x00000000       0x6a build/129/obj/clock.o
+ .debug_macro   0x00000000      0x1df build/129/obj/clock.o
+ .debug_macro   0x00000000      0x190 build/129/obj/clock.o
+ .debug_macro   0x00000000      0x698 build/129/obj/clock.o
+ .debug_macro   0x00000000      0x166 build/129/obj/clock.o
+ .debug_macro   0x00000000       0x34 build/129/obj/clock.o
+ .group         0x00000000        0xc build/129/obj/systick.o
+ .group         0x00000000        0xc build/129/obj/systick.o
+ .group         0x00000000        0xc build/129/obj/systick.o
+ .group         0x00000000        0xc build/129/obj/systick.o
+ .group         0x00000000        0xc build/129/obj/systick.o
+ .group         0x00000000        0xc build/129/obj/systick.o
+ .group         0x00000000        0xc build/129/obj/systick.o
+ .group         0x00000000        0xc build/129/obj/systick.o
+ .group         0x00000000        0xc build/129/obj/systick.o
+ .group         0x00000000        0xc build/129/obj/systick.o
+ .group         0x00000000        0xc build/129/obj/systick.o
+ .text          0x00000000        0x0 build/129/obj/systick.o
+ .data          0x00000000        0x0 build/129/obj/systick.o
+ .bss           0x00000000        0x0 build/129/obj/systick.o
+ .text.delay_ms
+                0x00000000       0x18 build/129/obj/systick.o
+ .text.delay_us
+                0x00000000       0x44 build/129/obj/systick.o
+ .debug_macro   0x00000000      0xad8 build/129/obj/systick.o
+ .debug_macro   0x00000000       0x22 build/129/obj/systick.o
+ .debug_macro   0x00000000       0x56 build/129/obj/systick.o
+ .debug_macro   0x00000000       0x51 build/129/obj/systick.o
+ .debug_macro   0x00000000      0x103 build/129/obj/systick.o
+ .debug_macro   0x00000000       0x6a build/129/obj/systick.o
+ .debug_macro   0x00000000      0x1df build/129/obj/systick.o
+ .debug_macro   0x00000000      0x190 build/129/obj/systick.o
+ .debug_macro   0x00000000      0x698 build/129/obj/systick.o
+ .debug_macro   0x00000000      0x166 build/129/obj/systick.o
+ .debug_macro   0x00000000       0x34 build/129/obj/systick.o
+ .group         0x00000000        0xc build/129/obj/uart.o
+ .group         0x00000000        0xc build/129/obj/uart.o
+ .group         0x00000000        0xc build/129/obj/uart.o
+ .group         0x00000000        0xc build/129/obj/uart.o
+ .group         0x00000000        0xc build/129/obj/uart.o
+ .group         0x00000000        0xc build/129/obj/uart.o
+ .group         0x00000000        0xc build/129/obj/uart.o
+ .group         0x00000000        0xc build/129/obj/uart.o
+ .group         0x00000000        0xc build/129/obj/uart.o
+ .group         0x00000000        0xc build/129/obj/uart.o
+ .group         0x00000000        0xc build/129/obj/uart.o
+ .text          0x00000000        0x0 build/129/obj/uart.o
+ .data          0x00000000        0x0 build/129/obj/uart.o
+ .bss           0x00000000        0x0 build/129/obj/uart.o
+ .text.uart_puts
+                0x00000000       0x20 build/129/obj/uart.o
+ .debug_macro   0x00000000      0xad8 build/129/obj/uart.o
+ .debug_macro   0x00000000       0x22 build/129/obj/uart.o
+ .debug_macro   0x00000000       0x56 build/129/obj/uart.o
+ .debug_macro   0x00000000       0x51 build/129/obj/uart.o
+ .debug_macro   0x00000000      0x103 build/129/obj/uart.o
+ .debug_macro   0x00000000       0x6a build/129/obj/uart.o
+ .debug_macro   0x00000000      0x1df build/129/obj/uart.o
+ .debug_macro   0x00000000      0x190 build/129/obj/uart.o
+ .debug_macro   0x00000000      0x698 build/129/obj/uart.o
+ .debug_macro   0x00000000      0x166 build/129/obj/uart.o
+ .debug_macro   0x00000000       0x34 build/129/obj/uart.o
+ .group         0x00000000        0xc build/129/obj/printf.o
+ .group         0x00000000        0xc build/129/obj/printf.o
+ .group         0x00000000        0xc build/129/obj/printf.o
+ .group         0x00000000        0xc build/129/obj/printf.o
+ .group         0x00000000        0xc build/129/obj/printf.o
+ .group         0x00000000        0xc build/129/obj/printf.o
+ .group         0x00000000        0xc build/129/obj/printf.o
+ .group         0x00000000        0xc build/129/obj/printf.o
+ .group         0x00000000        0xc build/129/obj/printf.o
+ .group         0x00000000        0xc build/129/obj/printf.o
+ .group         0x00000000        0xc build/129/obj/printf.o
+ .group         0x00000000        0xc build/129/obj/printf.o
+ .text          0x00000000        0x0 build/129/obj/printf.o
+ .data          0x00000000        0x0 build/129/obj/printf.o
+ .bss           0x00000000        0x0 build/129/obj/printf.o
+ .debug_macro   0x00000000      0xad8 build/129/obj/printf.o
+ .debug_macro   0x00000000       0x22 build/129/obj/printf.o
+ .debug_macro   0x00000000       0x56 build/129/obj/printf.o
+ .debug_macro   0x00000000       0x51 build/129/obj/printf.o
+ .debug_macro   0x00000000      0x103 build/129/obj/printf.o
+ .debug_macro   0x00000000       0x6a build/129/obj/printf.o
+ .debug_macro   0x00000000      0x1df build/129/obj/printf.o
+ .debug_macro   0x00000000      0x190 build/129/obj/printf.o
+ .debug_macro   0x00000000      0x698 build/129/obj/printf.o
+ .debug_macro   0x00000000      0x166 build/129/obj/printf.o
+ .debug_macro   0x00000000       0x34 build/129/obj/printf.o
+
+Memory Configuration
+
+Name             Origin             Length             Attributes
+FLASH            0x00000000         0x00100000         xr
+RAM              0x20000000         0x00040000         xrw
+*default*        0x00000000         0xffffffff
+
+Linker script and memory map
+
+LOAD build/129/obj/fault.o
+LOAD build/129/obj/main.o
+LOAD build/129/obj/startup.o
+LOAD build/129/obj/clock.o
+LOAD build/129/obj/systick.o
+LOAD build/129/obj/uart.o
+LOAD build/129/obj/printf.o
+LOAD /home/randy/.hermes/cache/scratch/arm-gnu-toolchain-14.2.rel1-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/14.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc_nano.a
+LOAD /home/randy/.hermes/cache/scratch/arm-gnu-toolchain-14.2.rel1-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/14.2.1/thumb/v7e-m+fp/hard/libgcc.a
+START GROUP
+LOAD /home/randy/.hermes/cache/scratch/arm-gnu-toolchain-14.2.rel1-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/14.2.1/thumb/v7e-m+fp/hard/libgcc.a
+LOAD /home/randy/.hermes/cache/scratch/arm-gnu-toolchain-14.2.rel1-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/14.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc_nano.a
+END GROUP
+START GROUP
+LOAD /home/randy/.hermes/cache/scratch/arm-gnu-toolchain-14.2.rel1-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/14.2.1/thumb/v7e-m+fp/hard/libgcc.a
+LOAD /home/randy/.hermes/cache/scratch/arm-gnu-toolchain-14.2.rel1-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/14.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc_nano.a
+LOAD /home/randy/.hermes/cache/scratch/arm-gnu-toolchain-14.2.rel1-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/14.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libnosys.a
+END GROUP
+START GROUP
+LOAD /home/randy/.hermes/cache/scratch/arm-gnu-toolchain-14.2.rel1-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/14.2.1/thumb/v7e-m+fp/hard/libgcc.a
+LOAD /home/randy/.hermes/cache/scratch/arm-gnu-toolchain-14.2.rel1-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/14.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc_nano.a
+LOAD /home/randy/.hermes/cache/scratch/arm-gnu-toolchain-14.2.rel1-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/14.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libnosys.a
+END GROUP
+                0x00000000                        _Min_Heap_Size = 0x0
+                0x00001000                        _Min_Stack_Size = 0x1000
+                0x20040000                        _estack = (ORIGIN (RAM) + LENGTH (RAM))
+
+.isr_vector     0x00000000      0x208
+                0x00000000                        . = ALIGN (0x4)
+ *(.isr_vector)
+ .isr_vector    0x00000000      0x208 build/129/obj/startup.o
+                0x00000000                vector_table
+                0x00000208                        . = ALIGN (0x4)
+
+.text           0x00000208      0x948
+                0x00000208                        . = ALIGN (0x4)
+ *(.text)
+ *(.text*)
+ .text.hardfault_c
+                0x00000208       0x8c build/129/obj/fault.o
+                0x00000208                hardfault_c
+ .text.HardFault_Handler
+                0x00000294       0x1c build/129/obj/fault.o
+                0x00000294                HardFault_Handler
+ .text.copia_nome
+                0x000002b0        0xe build/129/obj/main.o
+ .text.provoca_busfault
+                0x000002be        0x8 build/129/obj/main.o
+ .text.provoca_ponteiro_nulo
+                0x000002c6       0x12 build/129/obj/main.o
+ .text.led_init
+                0x000002d8       0x58 build/129/obj/main.o
+ .text.provoca_div_zero
+                0x00000330       0x34 build/129/obj/main.o
+ .text.provoca_desalinhado
+                0x00000364       0x28 build/129/obj/main.o
+ .text.menu     0x0000038c       0x10 build/129/obj/main.o
+ .text.media    0x0000039c       0x26 build/129/obj/main.o
+                0x0000039c                media
+ .text.processa
+                0x000003c2       0x16 build/129/obj/main.o
+                0x000003c2                processa
+ .text.passo_estado
+                0x000003d8       0x7c build/129/obj/main.o
+                0x000003d8                passo_estado
+ .text.main     0x00000454      0x174 build/129/obj/main.o
+                0x00000454                main
+ .text.Default_Handler
+                0x000005c8        0x2 build/129/obj/startup.o
+                0x000005c8                FLASH_Handler
+                0x000005c8                TIMER5B_Handler
+                0x000005c8                DebugMon_Handler
+                0x000005c8                GPIOP1_Handler
+                0x000005c8                GPIOP7_Handler
+                0x000005c8                I2C6_Handler
+                0x000005c8                UART3_Handler
+                0x000005c8                I2C0_Handler
+                0x000005c8                UART2_Handler
+                0x000005c8                GPIOM_Handler
+                0x000005c8                I2C1_Handler
+                0x000005c8                PendSV_Handler
+                0x000005c8                NMI_Handler
+                0x000005c8                GPIOQ4_Handler
+                0x000005c8                TIMER2B_Handler
+                0x000005c8                TIMER6B_Handler
+                0x000005c8                I2C7_Handler
+                0x000005c8                PWM0_3_Handler
+                0x000005c8                GPIOK_Handler
+                0x000005c8                USB0_Handler
+                0x000005c8                SSI1_Handler
+                0x000005c8                COMP0_Handler
+                0x000005c8                ADC0SS0_Handler
+                0x000005c8                ADC1SS3_Handler
+                0x000005c8                COMP2_Handler
+                0x000005c8                GPIOP3_Handler
+                0x000005c8                ADC1SS2_Handler
+                0x000005c8                TIMER1B_Handler
+                0x000005c8                UsageFault_Handler
+                0x000005c8                GPIOP6_Handler
+                0x000005c8                ADC0SS3_Handler
+                0x000005c8                CAN0_Handler
+                0x000005c8                HIBERNATE_Handler
+                0x000005c8                PWM0_1_Handler
+                0x000005c8                UART1_Handler
+                0x000005c8                SSI2_Handler
+                0x000005c8                GPIOF_Handler
+                0x000005c8                ADC0SS1_Handler
+                0x000005c8                GPIOP2_Handler
+                0x000005c8                UDMAERR_Handler
+                0x000005c8                EPI0_Handler
+                0x000005c8                GPIOD_Handler
+                0x000005c8                SSI3_Handler
+                0x000005c8                I2C4_Handler
+                0x000005c8                GPIOE_Handler
+                0x000005c8                ADC1SS1_Handler
+                0x000005c8                GPIOC_Handler
+                0x000005c8                UART4_Handler
+                0x000005c8                TIMER1A_Handler
+                0x000005c8                UART6_Handler
+                0x000005c8                Default_Handler
+                0x000005c8                I2C5_Handler
+                0x000005c8                GPIOA_Handler
+                0x000005c8                GPIOQ1_Handler
+                0x000005c8                TIMER2A_Handler
+                0x000005c8                GPIOP0_Handler
+                0x000005c8                I2C8_Handler
+                0x000005c8                I2C9_Handler
+                0x000005c8                UDMA_Handler
+                0x000005c8                TIMER4B_Handler
+                0x000005c8                CAN1_Handler
+                0x000005c8                GPIOP5_Handler
+                0x000005c8                UART7_Handler
+                0x000005c8                GPIOQ6_Handler
+                0x000005c8                MemManage_Handler
+                0x000005c8                I2C2_Handler
+                0x000005c8                SVC_Handler
+                0x000005c8                QEI0_Handler
+                0x000005c8                GPIOQ0_Handler
+                0x000005c8                GPIOG_Handler
+                0x000005c8                GPIOB_Handler
+                0x000005c8                TIMER6A_Handler
+                0x000005c8                ETH_Handler
+                0x000005c8                SYSCTL_Handler
+                0x000005c8                TIMER0B_Handler
+                0x000005c8                GPIOQ7_Handler
+                0x000005c8                GPIOQ3_Handler
+                0x000005c8                TIMER4A_Handler
+                0x000005c8                TIMER3A_Handler
+                0x000005c8                ADC0SS2_Handler
+                0x000005c8                GPIOL_Handler
+                0x000005c8                TIMER5A_Handler
+                0x000005c8                PWM0_FAULT_Handler
+                0x000005c8                GPION_Handler
+                0x000005c8                WATCHDOG_Handler
+                0x000005c8                UART5_Handler
+                0x000005c8                UART0_Handler
+                0x000005c8                TIMER7B_Handler
+                0x000005c8                PWM0_0_Handler
+                0x000005c8                I2C3_Handler
+                0x000005c8                ADC1SS0_Handler
+                0x000005c8                TIMER3B_Handler
+                0x000005c8                GPIOQ5_Handler
+                0x000005c8                GPIOH_Handler
+                0x000005c8                SSI0_Handler
+                0x000005c8                FPU_Handler
+                0x000005c8                COMP1_Handler
+                0x000005c8                GPIOQ2_Handler
+                0x000005c8                BusFault_Handler
+                0x000005c8                GPIOP4_Handler
+                0x000005c8                TIMER0A_Handler
+                0x000005c8                TIMER7A_Handler
+                0x000005c8                GPIOJ_Handler
+                0x000005c8                PWM0_2_Handler
+                0x000005c8                TAMPER_Handler
+ *fill*         0x000005ca        0x2 
+ .text.Reset_Handler
+                0x000005cc       0x70 build/129/obj/startup.o
+                0x000005cc                Reset_Handler
+ .text.clock_init
+                0x0000063c       0x74 build/129/obj/clock.o
+                0x0000063c                clock_init
+ .text.systick_init
+                0x000006b0       0x28 build/129/obj/systick.o
+                0x000006b0                systick_init
+ .text.SysTick_Handler
+                0x000006d8       0x10 build/129/obj/systick.o
+                0x000006d8                SysTick_Handler
+ .text.millis   0x000006e8        0xc build/129/obj/systick.o
+                0x000006e8                millis
+ .text.system_init
+                0x000006f4        0xc build/129/obj/systick.o
+                0x000006f4                system_init
+ .text.uart_init
+                0x00000700       0xe4 build/129/obj/uart.o
+                0x00000700                uart_init
+ .text.uart_putc
+                0x000007e4       0x14 build/129/obj/uart.o
+                0x000007e4                uart_putc
+ .text.uart_getc
+                0x000007f8       0x28 build/129/obj/uart.o
+                0x000007f8                uart_getc
+ .text.out_pad  0x00000820       0x1e build/129/obj/printf.o
+ *fill*         0x0000083e        0x2 
+ .text.out_num  0x00000840       0xc0 build/129/obj/printf.o
+ .text.out_str  0x00000900       0x56 build/129/obj/printf.o
+ *fill*         0x00000956        0x2 
+ .text.kprintf  0x00000958      0x1f8 build/129/obj/printf.o
+                0x00000958                kprintf
+ *(.glue_7)
+ .glue_7        0x00000b50        0x0 linker stubs
+ *(.glue_7t)
+ .glue_7t       0x00000b50        0x0 linker stubs
+ *(.eh_frame)
+ *(.init)
+ *(.fini)
+                0x00000b50                        . = ALIGN (0x4)
+                0x00000b50                        _etext = .
+
+.vfp11_veneer   0x00000b50        0x0
+ .vfp11_veneer  0x00000b50        0x0 linker stubs
+
+.v4_bx          0x00000b50        0x0
+ .v4_bx         0x00000b50        0x0 linker stubs
+
+.iplt           0x00000b50        0x0
+ .iplt          0x00000b50        0x0 build/129/obj/fault.o
+
+.rodata         0x00000b50      0x230
+                0x00000b50                        . = ALIGN (0x4)
+ *(.rodata)
+ *(.rodata*)
+ .rodata.hardfault_c.str1.4
+                0x00000b50      0x213 build/129/obj/fault.o
+                                 0x71 (size before relaxing)
+ .rodata.provoca_div_zero.str1.4
+                0x00000d63        0xd build/129/obj/main.o
+ .rodata.provoca_desalinhado.str1.4
+                0x00000d63       0x1b build/129/obj/main.o
+ .rodata.menu.str1.4
+                0x00000d63       0x61 build/129/obj/main.o
+ .rodata.main.str1.4
+                0x00000d63       0xda build/129/obj/main.o
+ *fill*         0x00000d63        0x1 
+ .rodata.buf.0  0x00000d64        0x8 build/129/obj/main.o
+ .rodata.amostras
+                0x00000d6c       0x14 build/129/obj/main.o
+ .rodata.out_num.str1.4
+                0x00000d80       0x25 build/129/obj/printf.o
+ .rodata.kprintf.str1.4
+                0x00000d80        0xb build/129/obj/printf.o
+                0x00000da8                        . = ALIGN (0x4)
+
+.rel.dyn        0x00000d80        0x0
+ .rel.iplt      0x00000d80        0x0 build/129/obj/fault.o
+
+.ARM.extab
+ *(.ARM.extab* .gnu.linkonce.armextab.*)
+
+.ARM            0x00000d80        0x0
+                0x00000d80                        __exidx_start = .
+ *(.ARM.exidx*)
+                0x00000d80                        __exidx_end = .
+
+.init_array     0x00000d80        0x0
+                0x00000d80                        . = ALIGN (0x4)
+                0x00000d80                        __init_array_start = .
+ *(SORT_BY_NAME(.init_array.*))
+ *(.init_array*)
+                0x00000d80                        __init_array_end = .
+                0x00000d80                        _sidata = LOADADDR (.data)
+
+.data           0x20000000       0x14 load address 0x00000d80
+                0x20000000                        . = ALIGN (0x4)
+                0x20000000                        _sdata = .
+ *(.data)
+ *(.data*)
+ .data.cfg      0x20000000       0x10 build/129/obj/main.o
+                0x20000000                cfg
+ .data.SystemCoreClock
+                0x20000010        0x4 build/129/obj/clock.o
+                0x20000010                SystemCoreClock
+ *(.ramfunc*)
+                0x20000014                        . = ALIGN (0x4)
+                0x20000014                        _edata = .
+
+.igot.plt       0x20000014        0x0 load address 0x00000d94
+ .igot.plt      0x20000014        0x0 build/129/obj/fault.o
+
+.bss            0x20000014       0x44 load address 0x00000d94
+                0x20000014                        . = ALIGN (0x4)
+                0x20000014                        _sbss = .
+                0x20000014                        __bss_start__ = _sbss
+ *(.bss)
+ *(.bss*)
+ .bss.fault_info
+                0x20000014       0x34 build/129/obj/fault.o
+                0x20000014                fault_info
+ .bss.velocidade
+                0x20000048        0x4 build/129/obj/main.o
+                0x20000048                velocidade
+ .bss.estado    0x2000004c        0x1 build/129/obj/main.o
+                0x2000004c                estado
+ *fill*         0x2000004d        0x3 
+ .bss.g_ticks_loop
+                0x20000050        0x4 build/129/obj/main.o
+                0x20000050                g_ticks_loop
+ .bss.s_ticks   0x20000054        0x4 build/129/obj/systick.o
+ *(COMMON)
+                0x20000058                        . = ALIGN (0x4)
+                0x20000058                        _ebss = .
+                0x20000058                        __bss_end__ = _ebss
+
+.noinit         0x20000058        0x0 load address 0x00000d94
+                0x20000058                        . = ALIGN (0x4)
+ *(.noinit*)
+                0x20000058                        . = ALIGN (0x4)
+
+._user_heap_stack
+                0x20000058     0x1000 load address 0x00000d94
+                0x20000058                        . = ALIGN (0x8)
+                [!provide]                        PROVIDE (end = .)
+                [!provide]                        PROVIDE (_end = .)
+                0x20000058                        . = (. + _Min_Heap_Size)
+                0x20001058                        . = (. + _Min_Stack_Size)
+ *fill*         0x20000058     0x1000 
+                0x20001058                        . = ALIGN (0x8)
+
+.ARM.attributes
+                0x00000000       0x34
+ *(.ARM.attributes)
+ .ARM.attributes
+                0x00000000       0x34 build/129/obj/fault.o
+ .ARM.attributes
+                0x00000034       0x34 build/129/obj/main.o
+ .ARM.attributes
+                0x00000068       0x34 build/129/obj/startup.o
+ .ARM.attributes
+                0x0000009c       0x34 build/129/obj/clock.o
+ .ARM.attributes
+                0x000000d0       0x34 build/129/obj/systick.o
+ .ARM.attributes
+                0x00000104       0x34 build/129/obj/uart.o
+ .ARM.attributes
+                0x00000138       0x34 build/129/obj/printf.o
+OUTPUT(build/129/24-gdb.elf elf32-littlearm)
+LOAD linker stubs
+
+.debug_info     0x00000000     0x217f
+ .debug_info    0x00000000      0x5b2 build/129/obj/fault.o
+ .debug_info    0x000005b2      0xb19 build/129/obj/main.o
+ .debug_info    0x000010cb      0x1bb build/129/obj/startup.o
+ .debug_info    0x00001286       0xbc build/129/obj/clock.o
+ .debug_info    0x00001342      0x23e build/129/obj/systick.o
+ .debug_info    0x00001580      0x5f9 build/129/obj/uart.o
+ .debug_info    0x00001b79      0x606 build/129/obj/printf.o
+
+.debug_abbrev   0x00000000      0xc23
+ .debug_abbrev  0x00000000      0x1cf build/129/obj/fault.o
+ .debug_abbrev  0x000001cf      0x360 build/129/obj/main.o
+ .debug_abbrev  0x0000052f      0x103 build/129/obj/startup.o
+ .debug_abbrev  0x00000632       0x76 build/129/obj/clock.o
+ .debug_abbrev  0x000006a8      0x18c build/129/obj/systick.o
+ .debug_abbrev  0x00000834      0x236 build/129/obj/uart.o
+ .debug_abbrev  0x00000a6a      0x1b9 build/129/obj/printf.o
+
+.debug_loclists
+                0x00000000      0x8f6
+ .debug_loclists
+                0x00000000       0x6b build/129/obj/fault.o
+ .debug_loclists
+                0x0000006b      0x1ff build/129/obj/main.o
+ .debug_loclists
+                0x0000026a       0x7a build/129/obj/startup.o
+ .debug_loclists
+                0x000002e4       0x95 build/129/obj/systick.o
+ .debug_loclists
+                0x00000379      0x142 build/129/obj/uart.o
+ .debug_loclists
+                0x000004bb      0x43b build/129/obj/printf.o
+
+.debug_aranges  0x00000000      0x198
+ .debug_aranges
+                0x00000000       0x28 build/129/obj/fault.o
+ .debug_aranges
+                0x00000028       0x70 build/129/obj/main.o
+ .debug_aranges
+                0x00000098       0x28 build/129/obj/startup.o
+ .debug_aranges
+                0x000000c0       0x20 build/129/obj/clock.o
+ .debug_aranges
+                0x000000e0       0x48 build/129/obj/systick.o
+ .debug_aranges
+                0x00000128       0x38 build/129/obj/uart.o
+ .debug_aranges
+                0x00000160       0x38 build/129/obj/printf.o
+
+.debug_rnglists
+                0x00000000      0x155
+ .debug_rnglists
+                0x00000000       0x1a build/129/obj/fault.o
+ .debug_rnglists
+                0x0000001a       0x6c build/129/obj/main.o
+ .debug_rnglists
+                0x00000086       0x19 build/129/obj/startup.o
+ .debug_rnglists
+                0x0000009f       0x13 build/129/obj/clock.o
+ .debug_rnglists
+                0x000000b2       0x3d build/129/obj/systick.o
+ .debug_rnglists
+                0x000000ef       0x26 build/129/obj/uart.o
+ .debug_rnglists
+                0x00000115       0x40 build/129/obj/printf.o
+
+.debug_macro    0x00000000     0x1d4c
+ .debug_macro   0x00000000       0xa7 build/129/obj/fault.o
+ .debug_macro   0x000000a7      0xad8 build/129/obj/fault.o
+ .debug_macro   0x00000b7f       0x22 build/129/obj/fault.o
+ .debug_macro   0x00000ba1       0x56 build/129/obj/fault.o
+ .debug_macro   0x00000bf7       0x51 build/129/obj/fault.o
+ .debug_macro   0x00000c48      0x103 build/129/obj/fault.o
+ .debug_macro   0x00000d4b       0x6a build/129/obj/fault.o
+ .debug_macro   0x00000db5      0x1df build/129/obj/fault.o
+ .debug_macro   0x00000f94      0x190 build/129/obj/fault.o
+ .debug_macro   0x00001124      0x698 build/129/obj/fault.o
+ .debug_macro   0x000017bc      0x166 build/129/obj/fault.o
+ .debug_macro   0x00001922       0x34 build/129/obj/fault.o
+ .debug_macro   0x00001956       0xa7 build/129/obj/main.o
+ .debug_macro   0x000019fd       0x70 build/129/obj/startup.o
+ .debug_macro   0x00001a6d       0x9d build/129/obj/clock.o
+ .debug_macro   0x00001b0a       0x9d build/129/obj/systick.o
+ .debug_macro   0x00001ba7       0xa7 build/129/obj/uart.o
+ .debug_macro   0x00001c4e       0xa6 build/129/obj/printf.o
+ .debug_macro   0x00001cf4       0x58 build/129/obj/printf.o
+
+.debug_line     0x00000000     0x2302
+ .debug_line    0x00000000      0x400 build/129/obj/fault.o
+ .debug_line    0x00000400      0x6bf build/129/obj/main.o
+ .debug_line    0x00000abf      0x306 build/129/obj/startup.o
+ .debug_line    0x00000dc5      0x393 build/129/obj/clock.o
+ .debug_line    0x00001158      0x46f build/129/obj/systick.o
+ .debug_line    0x000015c7      0x558 build/129/obj/uart.o
+ .debug_line    0x00001b1f      0x7e3 build/129/obj/printf.o
+
+.debug_str      0x00000000     0x69f0
+ .debug_str     0x00000000     0x69f0 build/129/obj/fault.o
+                               0x65a9 (size before relaxing)
+ .debug_str     0x000069f0     0x6744 build/129/obj/main.o
+ .debug_str     0x000069f0     0x3e0f build/129/obj/startup.o
+ .debug_str     0x000069f0     0x64b8 build/129/obj/clock.o
+ .debug_str     0x000069f0     0x6548 build/129/obj/systick.o
+ .debug_str     0x000069f0     0x6607 build/129/obj/uart.o
+ .debug_str     0x000069f0     0x664b build/129/obj/printf.o
+
+.comment        0x00000000       0x45
+ .comment       0x00000000       0x45 build/129/obj/fault.o
+                                 0x46 (size before relaxing)
+ .comment       0x00000045       0x46 build/129/obj/main.o
+ .comment       0x00000045       0x46 build/129/obj/startup.o
+ .comment       0x00000045       0x46 build/129/obj/clock.o
+ .comment       0x00000045       0x46 build/129/obj/systick.o
+ .comment       0x00000045       0x46 build/129/obj/uart.o
+ .comment       0x00000045       0x46 build/129/obj/printf.o
+
+.debug_frame    0x00000000      0x320
+ .debug_frame   0x00000000       0x38 build/129/obj/fault.o
+ .debug_frame   0x00000038      0x104 build/129/obj/main.o
+ .debug_frame   0x0000013c       0x38 build/129/obj/startup.o
+ .debug_frame   0x00000174       0x20 build/129/obj/clock.o
+ .debug_frame   0x00000194       0x78 build/129/obj/systick.o
+ .debug_frame   0x0000020c       0x64 build/129/obj/uart.o
+ .debug_frame   0x00000270       0xb0 build/129/obj/printf.o

@@ -1,0 +1,269 @@
+
+Discarded input sections
+
+ .group         0x00000000        0xc build/f0/obj/main.o
+ .group         0x00000000        0xc build/f0/obj/main.o
+ .group         0x00000000        0xc build/f0/obj/main.o
+ .group         0x00000000        0xc build/f0/obj/main.o
+ .group         0x00000000        0xc build/f0/obj/main.o
+ .group         0x00000000        0xc build/f0/obj/main.o
+ .group         0x00000000        0xc build/f0/obj/main.o
+ .group         0x00000000        0xc build/f0/obj/main.o
+ .text          0x00000000        0x0 build/f0/obj/main.o
+ .data          0x00000000        0x0 build/f0/obj/main.o
+ .bss           0x00000000        0x0 build/f0/obj/main.o
+ .group         0x00000000        0xc build/f0/obj/startup.o
+ .group         0x00000000        0xc build/f0/obj/startup.o
+ .group         0x00000000        0xc build/f0/obj/startup.o
+ .group         0x00000000        0xc build/f0/obj/startup.o
+ .group         0x00000000        0xc build/f0/obj/startup.o
+ .group         0x00000000        0xc build/f0/obj/startup.o
+ .group         0x00000000        0xc build/f0/obj/startup.o
+ .text          0x00000000        0x0 build/f0/obj/startup.o
+ .data          0x00000000        0x0 build/f0/obj/startup.o
+ .bss           0x00000000        0x0 build/f0/obj/startup.o
+ .debug_macro   0x00000000      0xaae build/f0/obj/startup.o
+ .debug_macro   0x00000000       0x22 build/f0/obj/startup.o
+ .debug_macro   0x00000000       0x56 build/f0/obj/startup.o
+ .debug_macro   0x00000000       0x51 build/f0/obj/startup.o
+ .debug_macro   0x00000000      0x103 build/f0/obj/startup.o
+ .debug_macro   0x00000000       0x6a build/f0/obj/startup.o
+ .debug_macro   0x00000000      0x1df build/f0/obj/startup.o
+
+Memory Configuration
+
+Name             Origin             Length             Attributes
+FLASH            0x08000000         0x00020000         xr
+RAM              0x20000000         0x00004000         xrw
+*default*        0x00000000         0xffffffff
+
+Linker script and memory map
+
+LOAD build/f0/obj/main.o
+LOAD build/f0/obj/startup.o
+LOAD /home/randy/.hermes/cache/scratch/arm-gnu-toolchain-14.2.rel1-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/14.2.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp/libc_nano.a
+LOAD /home/randy/.hermes/cache/scratch/arm-gnu-toolchain-14.2.rel1-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/14.2.1/thumb/v6-m/nofp/libgcc.a
+START GROUP
+LOAD /home/randy/.hermes/cache/scratch/arm-gnu-toolchain-14.2.rel1-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/14.2.1/thumb/v6-m/nofp/libgcc.a
+LOAD /home/randy/.hermes/cache/scratch/arm-gnu-toolchain-14.2.rel1-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/14.2.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp/libc_nano.a
+END GROUP
+START GROUP
+LOAD /home/randy/.hermes/cache/scratch/arm-gnu-toolchain-14.2.rel1-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/14.2.1/thumb/v6-m/nofp/libgcc.a
+LOAD /home/randy/.hermes/cache/scratch/arm-gnu-toolchain-14.2.rel1-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/14.2.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp/libc_nano.a
+LOAD /home/randy/.hermes/cache/scratch/arm-gnu-toolchain-14.2.rel1-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/14.2.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp/libnosys.a
+END GROUP
+START GROUP
+LOAD /home/randy/.hermes/cache/scratch/arm-gnu-toolchain-14.2.rel1-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/14.2.1/thumb/v6-m/nofp/libgcc.a
+LOAD /home/randy/.hermes/cache/scratch/arm-gnu-toolchain-14.2.rel1-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/14.2.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp/libc_nano.a
+LOAD /home/randy/.hermes/cache/scratch/arm-gnu-toolchain-14.2.rel1-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/14.2.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp/libnosys.a
+END GROUP
+                0x00000000                        _Min_Heap_Size = 0x0
+                0x00000400                        _Min_Stack_Size = 0x400
+                0x20004000                        _estack = (ORIGIN (RAM) + LENGTH (RAM))
+
+.isr_vector     0x08000000       0xc0
+                0x08000000                        . = ALIGN (0x4)
+ *(.isr_vector)
+ .isr_vector    0x08000000       0xc0 build/f0/obj/startup.o
+                0x08000000                vector_table
+                0x080000c0                        . = ALIGN (0x4)
+
+.text           0x080000c0       0xec
+                0x080000c0                        . = ALIGN (0x4)
+ *(.text)
+ *(.text*)
+ .text.startup.main
+                0x080000c0       0x68 build/f0/obj/main.o
+                0x080000c0                main
+ .text.Default_Handler
+                0x08000128        0x4 build/f0/obj/startup.o
+                0x08000128                TIM1_CC_IRQHandler
+                0x08000128                TSC_IRQHandler
+                0x08000128                HardFault_Handler
+                0x08000128                ADC1_COMP_IRQHandler
+                0x08000128                SysTick_Handler
+                0x08000128                PendSV_Handler
+                0x08000128                NMI_Handler
+                0x08000128                I2C1_IRQHandler
+                0x08000128                RCC_CRS_IRQHandler
+                0x08000128                SPI1_IRQHandler
+                0x08000128                TIM6_DAC_IRQHandler
+                0x08000128                USART3_4_IRQHandler
+                0x08000128                EXTI2_3_IRQHandler
+                0x08000128                I2C2_IRQHandler
+                0x08000128                TIM17_IRQHandler
+                0x08000128                CEC_CAN_IRQHandler
+                0x08000128                RTC_IRQHandler
+                0x08000128                PVD_VDDIO2_IRQHandler
+                0x08000128                DMA1_Channel4_5_6_7_IRQHandler
+                0x08000128                TIM16_IRQHandler
+                0x08000128                TIM3_IRQHandler
+                0x08000128                EXTI4_15_IRQHandler
+                0x08000128                DMA1_Channel1_IRQHandler
+                0x08000128                Default_Handler
+                0x08000128                TIM14_IRQHandler
+                0x08000128                TIM7_IRQHandler
+                0x08000128                TIM15_IRQHandler
+                0x08000128                EXTI0_1_IRQHandler
+                0x08000128                USB_IRQHandler
+                0x08000128                SPI2_IRQHandler
+                0x08000128                SVC_Handler
+                0x08000128                WWDG_IRQHandler
+                0x08000128                TIM2_IRQHandler
+                0x08000128                DMA1_Channel2_3_IRQHandler
+                0x08000128                USART2_IRQHandler
+                0x08000128                FLASH_IRQHandler
+                0x08000128                USART1_IRQHandler
+                0x08000128                TIM1_BRK_UP_TRG_COM_IRQHandler
+ .text.Reset_Handler
+                0x0800012c       0x80 build/f0/obj/startup.o
+                0x0800012c                Reset_Handler
+ *(.glue_7)
+ .glue_7        0x080001ac        0x0 linker stubs
+ *(.glue_7t)
+ .glue_7t       0x080001ac        0x0 linker stubs
+ *(.eh_frame)
+ *(.init)
+ *(.fini)
+                0x080001ac                        . = ALIGN (0x4)
+                0x080001ac                        _etext = .
+
+.vfp11_veneer   0x080001ac        0x0
+ .vfp11_veneer  0x080001ac        0x0 linker stubs
+
+.v4_bx          0x080001ac        0x0
+ .v4_bx         0x080001ac        0x0 linker stubs
+
+.iplt           0x080001ac        0x0
+ .iplt          0x080001ac        0x0 build/f0/obj/startup.o
+
+.rel.dyn        0x080001ac        0x0
+ .rel.iplt      0x080001ac        0x0 build/f0/obj/startup.o
+
+.rodata         0x080001ac        0x0
+                0x080001ac                        . = ALIGN (0x4)
+ *(.rodata)
+ *(.rodata*)
+                0x080001ac                        . = ALIGN (0x4)
+
+.ARM.extab
+ *(.ARM.extab* .gnu.linkonce.armextab.*)
+
+.ARM            0x080001ac        0x0
+                0x080001ac                        __exidx_start = .
+ *(.ARM.exidx*)
+                0x080001ac                        __exidx_end = .
+
+.init_array     0x080001ac        0x0
+                0x080001ac                        . = ALIGN (0x4)
+                0x080001ac                        __init_array_start = .
+ *(SORT_BY_NAME(.init_array.*))
+ *(.init_array*)
+                0x080001ac                        __init_array_end = .
+                0x080001ac                        _sidata = LOADADDR (.data)
+
+.data           0x20000000        0x0 load address 0x080001ac
+                0x20000000                        . = ALIGN (0x4)
+                0x20000000                        _sdata = .
+ *(.data)
+ *(.data*)
+ *(.ramfunc*)
+                0x20000000                        . = ALIGN (0x4)
+                0x20000000                        _edata = .
+
+.igot.plt       0x20000000        0x0 load address 0x080001ac
+ .igot.plt      0x20000000        0x0 build/f0/obj/startup.o
+
+.bss            0x20000000        0x0 load address 0x080001ac
+                0x20000000                        . = ALIGN (0x4)
+                0x20000000                        _sbss = .
+                0x20000000                        __bss_start__ = _sbss
+ *(.bss)
+ *(.bss*)
+ *(COMMON)
+                0x20000000                        . = ALIGN (0x4)
+                0x20000000                        _ebss = .
+                0x20000000                        __bss_end__ = _ebss
+
+.noinit         0x20000000        0x0 load address 0x080001ac
+                0x20000000                        . = ALIGN (0x4)
+ *(.noinit*)
+                0x20000000                        . = ALIGN (0x4)
+
+._user_heap_stack
+                0x20000000      0x400 load address 0x080001ac
+                0x20000000                        . = ALIGN (0x8)
+                [!provide]                        PROVIDE (end = .)
+                [!provide]                        PROVIDE (_end = .)
+                0x20000000                        . = (. + _Min_Heap_Size)
+                0x20000400                        . = (. + _Min_Stack_Size)
+ *fill*         0x20000000      0x400 
+                0x20000400                        . = ALIGN (0x8)
+
+.ARM.attributes
+                0x00000000       0x2c
+ *(.ARM.attributes)
+ .ARM.attributes
+                0x00000000       0x2c build/f0/obj/main.o
+ .ARM.attributes
+                0x0000002c       0x2c build/f0/obj/startup.o
+OUTPUT(build/f0/05-gpio-blink.elf elf32-littlearm)
+LOAD linker stubs
+
+.debug_info     0x00000000      0x404
+ .debug_info    0x00000000      0x254 build/f0/obj/main.o
+ .debug_info    0x00000254      0x1b0 build/f0/obj/startup.o
+
+.debug_abbrev   0x00000000      0x262
+ .debug_abbrev  0x00000000      0x150 build/f0/obj/main.o
+ .debug_abbrev  0x00000150      0x112 build/f0/obj/startup.o
+
+.debug_loclists
+                0x00000000       0x62
+ .debug_loclists
+                0x00000000       0x1c build/f0/obj/main.o
+ .debug_loclists
+                0x0000001c       0x46 build/f0/obj/startup.o
+
+.debug_aranges  0x00000000       0x48
+ .debug_aranges
+                0x00000000       0x20 build/f0/obj/main.o
+ .debug_aranges
+                0x00000020       0x28 build/f0/obj/startup.o
+
+.debug_rnglists
+                0x00000000       0x45
+ .debug_rnglists
+                0x00000000       0x2b build/f0/obj/main.o
+ .debug_rnglists
+                0x0000002b       0x1a build/f0/obj/startup.o
+
+.debug_macro    0x00000000     0x19f5
+ .debug_macro   0x00000000       0x7c build/f0/obj/main.o
+ .debug_macro   0x0000007c      0xaae build/f0/obj/main.o
+ .debug_macro   0x00000b2a       0x22 build/f0/obj/main.o
+ .debug_macro   0x00000b4c       0x56 build/f0/obj/main.o
+ .debug_macro   0x00000ba2       0x51 build/f0/obj/main.o
+ .debug_macro   0x00000bf3      0x103 build/f0/obj/main.o
+ .debug_macro   0x00000cf6       0x6a build/f0/obj/main.o
+ .debug_macro   0x00000d60      0x1df build/f0/obj/main.o
+ .debug_macro   0x00000f3f      0xa4d build/f0/obj/main.o
+ .debug_macro   0x0000198c       0x69 build/f0/obj/startup.o
+
+.debug_line     0x00000000      0x6cc
+ .debug_line    0x00000000      0x3b8 build/f0/obj/main.o
+ .debug_line    0x000003b8      0x314 build/f0/obj/startup.o
+
+.debug_str      0x00000000     0x6403
+ .debug_str     0x00000000     0x6403 build/f0/obj/main.o
+                               0x646c (size before relaxing)
+ .debug_str     0x00006403     0x3cee build/f0/obj/startup.o
+
+.comment        0x00000000       0x45
+ .comment       0x00000000       0x45 build/f0/obj/main.o
+                                 0x46 (size before relaxing)
+ .comment       0x00000045       0x46 build/f0/obj/startup.o
+
+.debug_frame    0x00000000       0x64
+ .debug_frame   0x00000000       0x28 build/f0/obj/main.o
+ .debug_frame   0x00000028       0x3c build/f0/obj/startup.o
