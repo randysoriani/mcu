@@ -1,0 +1,4 @@
+# O clangd do editor não sabe qual chip está sendo compilado (isso é decidido
+# pelo Makefile com MCU=...), então os diagnósticos dele seriam falsos.
+Diagnostics:
+  Suppress: '*'

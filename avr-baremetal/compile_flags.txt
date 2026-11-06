@@ -1,0 +1,6 @@
+-xc
+-Icommon/include
+-Icommon/m328p
+-DATMEGA328P
+-DAVR8
+-DF_CPU=16000000UL
